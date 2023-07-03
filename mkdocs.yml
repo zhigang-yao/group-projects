@@ -1,0 +1,7 @@
+site_name: Yao Group Projects
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
