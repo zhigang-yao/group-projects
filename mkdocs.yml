@@ -5,3 +5,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+
+nav:
+  - Home:
+    - docs/index.md
