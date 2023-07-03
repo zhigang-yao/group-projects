@@ -9,3 +9,7 @@ theme:
 nav:
   - Home:
     - docs/index.md
+  - Manifold fitting:
+    - docs/mf/index.md
+  - Principal flow:
+    - docs/pf/index.md
