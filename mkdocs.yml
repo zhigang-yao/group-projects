@@ -8,5 +8,9 @@ theme:
 
 nav:
   - Home: index.md
-  - Manifold fitting: mf/index.md
-  - Principal flow: /pf/index.md
+  - Manifold fitting: 
+    - mf/index.md
+    - mf/pages/test.md
+  - Principal flow: 
+    - pf/index.md
+    - pf/pages/test.md
