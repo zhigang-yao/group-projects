@@ -12,7 +12,7 @@ For more information [mkdocs.org](https://www.mkdocs.org).
 
 ##
 
-test upload
+test
 
 ## Project layout
 
