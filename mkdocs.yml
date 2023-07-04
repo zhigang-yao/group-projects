@@ -4,13 +4,34 @@ theme:
   name: material
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
+    - navigation.top
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  icon:
+    repo: material/home-circle
+
+repo_url: https://zhigang-yao.github.io/
+repo_name: Back to personal page
+
 
 nav:
   - Home: index.md
   - Manifold fitting: 
-    - mf/index.md
+    # - mf/index.md
+    - mf/pages/test.md
     - mf/pages/test.md
   - Principal flow: 
-    - pf/index.md
+    # - pf/index.md
+    - pf/pages/test.md
     - pf/pages/test.md

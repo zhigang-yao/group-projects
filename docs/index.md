@@ -1,7 +1,9 @@
-# Home page
+# L1 title
 
 This website is still under construction, please come back later.
-For more information [mkdocs.org](https://www.mkdocs.org).
+
+## L2 title
+L2 title will be shown in the table of contents.
 
 ## Commands
 
