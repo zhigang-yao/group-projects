@@ -1,0 +1,255 @@
+{% extends "base.html" %}
+{% block tabs %}
+  {{ super() }}
+  
+  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}
+
+  :root {
+  --NUSBlue: #003D7C;
+  --NUSOrange: #EF7C00;
+  --platinum: #e5e5e5;
+  --black: #2b2d42;
+  --white: #fff;
+  --thumb: #edf2f4;
+}
+
+/* * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font: 16px / 24px "Rubik", sans-serif;
+  color: var(--black);
+  background: var(--platinum);
+  margin: 0 0;
+} */
+
+.container {
+  max-width: 1400px;
+  padding: 0 0px;
+  margin: 0px auto;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 1em;
+  color: var(--NUSBlue);
+}
+
+hh {
+  font-size: 46px;
+  margin-bottom: 20px;
+  color: var(--NUSBlue);
+}
+
+txt{
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: var(--NUSBlue);
+}
+
+.cards {
+  display: flex;
+  padding: 25px 0px;
+  list-style: none;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 100%;
+  padding: 20px;
+  background: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
+  scroll-snap-align: start;
+  transition: all 0.2s;
+}
+
+.card:not(:last-child) {
+  margin-right: 10px;
+}
+
+.card:hover {
+  color: var(--white);
+  background: var(--NUSBlue);
+}
+
+.card .card-title {
+  font-size: 20px;
+}
+
+.card .card-content {
+  margin: 20px 0;
+  max-width: 85%;
+}
+
+.card .card-link-wrapper {
+  margin-top: auto;
+}
+
+.card .card-link {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background: var(--NUSBlue);
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.card:hover .card-link {
+  background: var(--NUSOrange);
+}
+
+.cards::-webkit-scrollbar {
+  height: 12px;
+}
+
+.cards::-webkit-scrollbar-thumb,
+.cards::-webkit-scrollbar-track {
+  border-radius: 92px;
+}
+
+.cards::-webkit-scrollbar-thumb {
+  background: var(--NUSBlue);
+}
+
+.cards::-webkit-scrollbar-track {
+  background: var(--thumb);
+}
+
+@media (min-width: 700px) {
+  .card {
+    flex-basis: calc(50% - 10px);
+  }
+
+  .card:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .card {
+    flex-basis: calc(calc(100% / 3) - 20px);
+  }
+
+  .card:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+/* @media (min-width: 1100px) {
+  .card {
+    flex-basis: calc(25% - 30px);
+  }
+
+  .card:not(:last-child) {
+    margin-right: 40px;
+  }
+} */
+
+  </style>
+  <center>  
+    <img src="assets/images/cy_manifold.png" alt="" width="800" height="510" draggable="false">
+    <div class="container">
+      <br>
+      <hh>{{ config.home_name}}</hh>
+      
+      <br>
+      <br>
+      <txt>{{ config.site_description }}</txt>
+    </div>
+  </center>
+
+  <!-- <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__image">
+          <img src="assets/images/cy_manifold.png" alt="" width="800" height="510" draggable="false" class="center">
+        </div>
+        <div class="mdx-hero__content">
+          <h2>{{ config.home_name}}</h2>
+          <p>{{ config.site_description }}</p>
+          <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
+            Quick start
+          </a>
+          <a href="{{ 'insiders/' | url }}" title="Material for MkDocs Insiders" class="md-button">
+            Get Insiders
+          </a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  
+  <br>
+  <br>
+  <div class="container">
+    <h2>Selected methods</h2>
+    <ul class="cards">
+      <li class="card">
+        <div>
+          <h3 class="card-title">Manifold Fitting</h3>
+          <div class="card-content">
+            <center>
+              <img src="assets/images/cy_manifold.png" alt="" width="160" height="100" draggable="false">
+            </center>
+            <p>Fit a smooth manifold with noisy sample from the ambient space.</p>
+          </div>
+        </div>
+        <div class="card-link-wrapper">
+          <a href="mf/" class="card-link">Learn More</a>
+        </div>
+      </li>
+
+      <li class="card">
+        <div>
+          <h3 class="card-title">Principal Submanifolds</h3>
+          <div class="card-content">
+            <p>Phasellus ultrices lorem vel bibendum ultricies. In hendrerit nulla a ante dapibus pulvinar eu eget quam.</p>
+          </div>
+        </div>
+        <div class="card-link-wrapper">
+          <a href="" class="card-link">Learn More</a>
+        </div>
+      </li>
+
+      <li class="card">
+        <div>
+          <h3 class="card-title">Principal Flows</h3>
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repudiandae magnam harum natus fuga et repellat in maiores.</p>
+          </div>
+        </div>
+        <div class="card-link-wrapper">
+          <a href="" class="card-link">Learn More</a>
+        </div>
+      </li>
+
+      <li class="card">
+        <div>
+          <h3 class="card-title">Fixed Boundary Flows</h3>
+          <div class="card-content">
+            <p>Phasellus ultrices lorem vel bibendum ultricies. In hendrerit nulla a ante dapibus pulvinar eu eget quam.</p>
+          </div>
+        </div>
+        <div class="card-link-wrapper">
+          <a href="" class="card-link">Learn More</a>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+{% endblock %}
+
+{% block content %}{% endblock %}
+
+{% block footer %}
+        {% include "partials/footer.html" %}
+{% endblock %}
+
