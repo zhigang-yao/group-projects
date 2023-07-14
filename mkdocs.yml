@@ -79,11 +79,15 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Manifold fitting: 
-    # - mf/index.md
+  - Manifold Fitting: 
+    - mf/index.md
     - mf/pages/test.md
-    - mf/pages/test.md
-  - Principal flow: 
-    # - pf/index.md
+    - mf/pages/test2.md
+  - Principal Flows: 
+    - pf/index.md
     - pf/pages/test.md
     - pf/pages/test.md
+  - Principal Submanifolds:
+    - sub/index.md
+  - Fixed Boundary Flows:
+    - fbf/index.md

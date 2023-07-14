@@ -1,6 +1,6 @@
 ---
 template: home.html
-title: Material for MkDocs
+title: Yao Group Page
 ---
 
-Welcome to Material for MkDocs.
+Welcome to Yao Group Page.
