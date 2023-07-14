@@ -1,6 +1,6 @@
 ---
 template: home.html
-title: Yao Group Page
+title: Home
 ---
 
 Welcome to Yao Group Page.
