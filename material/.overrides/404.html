@@ -1,0 +1,37 @@
+{% extends "main.html" %}
+{% block content %}
+<style> 
+:root {
+  --NUSBlue: #003D7C;
+  --NUSOrange: #EF7C00;
+}
+
+.container {
+  max-width: 90%;
+  padding: 0 0px;
+  margin: 0px auto;
+}
+
+heads2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  color: var(--NUSBlue);
+}
+
+heads {
+  font-size: 4em;
+  margin-bottom: 2em;
+  color: var(--NUSOrange);
+}
+</style>
+
+<div class="container">
+    <center>
+        <br>
+        <heads>404</heads>
+        <br>
+        <br>
+        <heads2>You have entered a page without knowledge.</heads2>
+    </center>
+  </div>
+{% endblock %}
