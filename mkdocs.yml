@@ -87,7 +87,7 @@ nav:
   - Home: index.md
   - Manifold Fitting: 
     - mf/index.md
-    - mf/pages/test.md
+    - mf/pages/model_setting.md
     - mf/pages/test2.md
   - Principal Flows: 
     - pf/index.md
