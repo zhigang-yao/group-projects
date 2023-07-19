@@ -33,29 +33,34 @@ body {
 }
 
 h2 {
-  font-size: 32px;
-  margin-bottom: 1em;
+  font-size: 3em;
+  margin-bottom: 0.5em;
   color: var(--NUSBlue);
 }
 
 hh {
-  font-size: 46px;
-  margin-bottom: 20px;
+  font-size: 4em;
+  margin-bottom: 1em;
   color: var(--NUSBlue);
 }
 
 txt{
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 2em;
+  margin-bottom: 2em;
   color: var(--NUSBlue);
 }
 
 .cards {
   display: flex;
   padding: 25px 0px;
-  list-style: none;
+  /* list-style: none;
   overflow-x: scroll;
-  scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory; */
+  border-style: none;
+  align-items: stretch;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-grow: 1;
 }
 
 .card {
@@ -129,21 +134,18 @@ txt{
 @media (min-width: 500px) {
   .card {
     flex-basis: calc(45% - 10px);
-  }
-
-  .card:not(:last-child) {
     margin-right: 20px;
+    margin-bottom: 10px;
   }
 }
 
 @media (min-width: 1100px) {
   .card {
     flex-basis: calc(calc(90% / 3) - 20px);
+    margin-right: 30px;
+    margin-bottom: 15px;
   }
 
-  .card:not(:last-child) {
-    margin-right: 30px;
-  }
 }
 
 /* @media (min-width: 1100px) {
@@ -245,6 +247,18 @@ txt{
         </div>
         <div class="card-link-wrapper">
           <a href="fbf" class="card-link">Learn More</a>
+        </div>
+      </li>
+
+      <li class="card">
+        <div>
+          <h3 class="card-title">MFCGAN</h3>
+          <div class="card-content">
+            <p>Fitting manifold with CycleGAN.</p>
+          </div>
+        </div>
+        <div class="card-link-wrapper">
+          <a href="mfcgan" class="card-link">Learn More</a>
         </div>
       </li>
 
