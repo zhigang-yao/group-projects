@@ -3,9 +3,6 @@
 The manifold fitting problem aims to reconstruct a smooth manifold estimator from noisy data points embedded in the high dimensional ambient space.
 
 
-
-
-
 Detailed description and discussion can be found in the following papers:
 
 ```
