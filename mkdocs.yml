@@ -35,7 +35,7 @@ repo_url: https://zhigang-yao.github.io/
 repo_name: Back to personal page
 extra_css:
   - assets/css/extra.css
-  - assets/css/card-link.css
+  - assets/css/card-href.css
 
 extra_javascript:
   - assets/js/mathjax.js

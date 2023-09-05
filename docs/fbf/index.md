@@ -14,4 +14,4 @@ Detained description and discussion can be found in the [paper](https://arxiv.or
 ```
 Code is available in [this GitHub repository](https://github.com/zhigang-yao/fixed-boundary-flows/)
 
-<a href="https://github.com/zhigang-yao/fixed-boundary-flows/" class="card-link">Visit GitHub</a>
+<a href="https://github.com/zhigang-yao/fixed-boundary-flows/" class="card-href">Visit GitHub</a>

@@ -1,4 +1,4 @@
-.card-link {
+.card-href {
     display: block;
     width: 15rem; /* Adjust this value to change the width of the card */
     margin: 2rem auto; /* This centers the card horizontally on the page */
@@ -13,6 +13,6 @@
     line-height: 1.5; /* Adjusts the spacing between lines of text */
 }
 
-.card-link:hover {
+.card-href:hover {
     box-shadow: 0.125rem 0.125rem 0.625rem rgba(0,0,0,0.2);
 }
