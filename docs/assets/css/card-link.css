@@ -1,0 +1,18 @@
+.card-link {
+    display: block;
+    width: 15rem; /* Adjust this value to change the width of the card */
+    margin: 2rem auto; /* This centers the card horizontally on the page */
+    padding: 1rem;
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.3125rem;
+    box-shadow: 0.125rem 0.125rem 0.3125rem rgba(0,0,0,0.1);
+    text-decoration: none;
+    color: black;
+    transition: box-shadow 0.3s;
+    text-align: center; /* This centers the text within the card */
+    line-height: 1.5; /* Adjusts the spacing between lines of text */
+}
+
+.card-link:hover {
+    box-shadow: 0.125rem 0.125rem 0.625rem rgba(0,0,0,0.2);
+}
