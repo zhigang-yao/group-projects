@@ -4,8 +4,8 @@ The manifold fitting problem aims to reconstruct a smooth manifold estimator fro
 
 
 Detailed description and discussion can be found in the following papers:
-<a href="https://arxiv.org/abs/1909.10228" class="btn-href">:material-numeric-1:</a>
-<a href="https://arxiv.org/abs/2304.07680" class="btn-href">:material-numeric-2:</a>
+<a href="https://arxiv.org/abs/1909.10228" class="btn-href">yx</a>
+<a href="https://arxiv.org/abs/2304.07680" class="btn-href">ysl</a>
 
 ```
 @article{yao2019manifold,

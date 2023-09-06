@@ -28,7 +28,7 @@
     border-radius: 0.4rem;
     border: 0.05rem solid #003D7C;
     text-decoration: none;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-align: center;
     cursor: pointer;
     /* transition: background-color 0.3s; */
