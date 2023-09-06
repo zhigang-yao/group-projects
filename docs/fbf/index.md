@@ -2,7 +2,7 @@
 
 The Fixed Boundary Flows Algorithm obtains a discrete flow connecting the fixed boundary points $y_0$ and $y_1$ from the given manifold date in the ambient space. Each point of the flow moves along the direction of the local vector field, which is determined by the scale parameter $h$.
 
-Detained description and discussion can be found in the [paper](https://arxiv.org/abs/1904.11332):
+Detained description and discussion can be found in the paper: <a href="https://arxiv.org/abs/1904.11332" class="btn-href">:material-newspaper-variant-outline:</a>
 
 ```
 @article{yao2019fixed,
@@ -12,6 +12,4 @@ Detained description and discussion can be found in the [paper](https://arxiv.or
   year={2019}
 }
 ```
-Code is available in [this GitHub repository](https://github.com/zhigang-yao/fixed-boundary-flows/)
-
-<a href="https://github.com/zhigang-yao/fixed-boundary-flows/" class="card-href">Visit GitHub</a>
+An implementation in R is available on Github: <a href="https://github.com/zhigang-yao/fixed-boundary-flows/" class="btn-href">:simple-github:</a>
