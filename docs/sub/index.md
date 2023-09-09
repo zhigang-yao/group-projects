@@ -1,6 +1,7 @@
 # Overview
 
-<a href="https://arxiv.org/abs/1604.04318" class="btn-href">:material-newspaper-variant-outline:</a> 
+Detailed description and discussion can be found in paper: :material-arrow-right: <a href="https://arxiv.org/abs/1604.04318" class="btn-href">:material-newspaper-variant-outline:</a>  
+To cite: :material-arrow-down:
 
 ```
 @article{yao2016principal,

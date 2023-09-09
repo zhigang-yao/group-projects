@@ -1,11 +1,12 @@
 # Overview
 
-The manifold fitting problem aims to reconstruct a smooth manifold estimator from noisy data points embedded in the high dimensional ambient space.
+The manifold fitting problem aims to reconstruct a smooth manifold estimator from noisy data points embedded in the high dimensional ambient space. 
+Implementations of manifold algorithms in Matlab and Python are available on Github: :material-arrow-right: <a href="https://github.com/zhigang-yao/manifold-fitting" class="btn-href">:simple-github:</a>
 
-
-Detailed description and discussion can be found in the following papers:
+Detailed description and discussion can be found in papers: :material-arrow-right: 
 <a href="https://arxiv.org/abs/1909.10228" class="btn-href">yx</a>
-<a href="https://arxiv.org/abs/2304.07680" class="btn-href">ysl</a>
+<a href="https://arxiv.org/abs/2304.07680" class="btn-href">ysl</a>  
+To cite: :material-arrow-down:
 
 ```
 @article{yao2019manifold,
@@ -24,5 +25,3 @@ Detailed description and discussion can be found in the following papers:
   year={2023}
 }
 ```
-
-Implementations in Matlab and Python are available on Github: <a href="https://github.com/zhigang-yao/manifold-fitting" class="btn-href">:simple-github:</a>
