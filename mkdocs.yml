@@ -88,12 +88,12 @@ nav:
   - Home: index.md
   - Principal Flows: 
     - pf/index.md
-    - pf/pages/test.md
-    - pf/pages/test.md
+    - pf/pages/talks.md
+    # - pf/pages/test.md
   - Manifold Fitting: 
     - mf/index.md
+    - mf/pages/talks.md
     - mf/pages/model_setting.md
-    - mf/pages/test2.md
   - Principal Submanifolds:
     - sub/index.md
   - Fixed Boundary Flows:
