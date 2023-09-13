@@ -98,6 +98,7 @@ nav:
     - sub/index.md
   - Fixed Boundary Flows:
     - fbf/index.md
+    - fbf/pages/talks.md
   - Principal Boundary:
     - pb/index.md
   - MFCGAN:
