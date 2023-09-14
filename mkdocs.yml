@@ -102,5 +102,6 @@ nav:
     - fbf/pages/talks.md
   - Principal Boundary:
     - pb/index.md
+    - pb/pages/talks.md
   - MFCGAN:
     - mfcgan/index.md
