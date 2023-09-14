@@ -96,6 +96,7 @@ nav:
     - mf/pages/model_setting.md
   - Principal Submanifolds:
     - sub/index.md
+    - sub/pages.talks.md
   - Fixed Boundary Flows:
     - fbf/index.md
     - fbf/pages/talks.md

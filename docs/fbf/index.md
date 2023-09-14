@@ -8,10 +8,10 @@ An implementation in R is available on Github: :material-arrow-right: <a href="h
 Detailed description and discussion can be found in paper: :material-arrow-right: <a href="https://arxiv.org/abs/1904.11332" class="btn-href">:material-newspaper-variant-outline:</a>  
 To cite: :material-arrow-down:
 ```
-@article{yao2019fixed,
-  title={Fixed Boundary Flows},
+@article{yao2023fixed,
+  title={Random Fixed Boundary Flows},
   author={Yao, Zhigang and Xia, Yuqing and Fan, Zengyan},
   journal={arXiv preprint arXiv:1904.11332},
-  year={2019}
+  year={2023}
 }
 ```
