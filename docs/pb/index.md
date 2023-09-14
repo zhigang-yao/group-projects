@@ -5,7 +5,7 @@ To cite: :material-arrow-down:
 
 
 ```
-@article{doi:10.1080/01621459.2019.1610660,
+@article{yao2020principal,
     author = {Yao, Zhigang and Zhang, Zhenyue},
     title = {Principal Boundary on Riemannian Manifolds},
     journal = {Journal of the American Statistical Association},
