@@ -11,3 +11,11 @@ To cite: :material-arrow-down:
   year={2016}
 }
 ```
+```
+@article{yao2023hunting,
+  title={Hunting Principal Submanifolds: New Theories and Methods},
+  author={Yao, Zhigang and Li, Bingjie and Tran, Van Do and Zhang, Zhenyue},
+  journal={Technical Report},
+  year={2023}
+}
+```
