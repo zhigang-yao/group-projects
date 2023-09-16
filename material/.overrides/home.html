@@ -132,6 +132,19 @@ txt{
 }
 
 
+  /* Style for the image within the card */
+  .card img {
+    width: 100%;
+    height: auto; /* Adjust the height as needed */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire card */
+    transition: filter 0.3s ease; /* Add a smooth transition effect for filters */
+  }
+
+  /* Reverse color effect on selected images hover */
+  .filter-image:hover img {
+    filter: invert(80%); /* Invert the image colors on hover */
+  }
+
 @media (min-width: 800px) {
   .card {
     flex-basis: calc(45% - 10px);
@@ -199,10 +212,13 @@ txt{
     <h2>Selected methods</h2>
     <ul class="cards">
 
-      <li class="card">
+      <li class="card filter-image">
         <div>
           <h3 class="card-title">Principal Flows</h3>
           <div class="card-content">
+            <center>
+              <img src="assets/images/pf.png" alt="Principal Flows" style="width: 100%;" draggable="false">
+            </center>
             <p>Determine curves on the manifold that retain canonical interpretability as principal components and being flexible enough to capture nongeodesic forms of variation. </p>
           </div>
         </div>
@@ -211,7 +227,7 @@ txt{
         </div>
       </li>
 
-      <li class="card">
+      <li class="card filter-image">
         <div>
           <h3 class="card-title">Manifold Fitting</h3>
           <div class="card-content">
@@ -258,10 +274,13 @@ txt{
       </li>
 
 
-      <li class="card">
+      <li class="card filter-image">
         <div>
           <h3 class="card-title">Principal Boundary</h3>
           <div class="card-content">
+            <center>
+              <img src="assets/images/pb2.png" alt="Principal Boundary" style="width: 100%;" draggable="false">
+            </center>
             <p>Principal Boundary on Riemannian Manifolds.</p>
           </div>
         </div>
@@ -270,10 +289,13 @@ txt{
         </div>
       </li>
 
-      <li class="card">
+      <li class="card filter-image">
         <div>
           <h3 class="card-title">MFCGAN</h3>
           <div class="card-content">
+            <center>
+              <img src="assets/images/mfcgan.png" alt="MFCGAN" style="width: 100%;" draggable="false">
+            </center>
             <p>Fitting manifold with CycleGAN.</p>
           </div>
         </div>
