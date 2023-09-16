@@ -10,3 +10,7 @@
   --md-accent-bg-color:                #EF7C00;
   --md-accent-bg-color--light:         #EF7C00;
 }
+
+.justify-text {
+  text-align: justify;
+}

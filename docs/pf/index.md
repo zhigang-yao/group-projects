@@ -11,7 +11,6 @@ To cite: :material-arrow-down:
     volume={109},
     number={505},
     pages={424--436},
-    year={2014},
-    publisher={Taylor \& Francis}
+    year={2014}
 }
 ```

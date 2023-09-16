@@ -32,7 +32,7 @@ theme:
     repo: material/home-circle
 
 repo_url: https://zhigang-yao.github.io/
-repo_name: Back to personal page
+repo_name: Back to homepage
 extra_css:
   - assets/css/extra.css
   - assets/css/card-href.css

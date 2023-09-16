@@ -12,7 +12,6 @@ To cite: :material-arrow-down:
     volume = {115},
     number = {531},
     pages = {1435-1448},
-    year  = {2020},
-    publisher = {Taylor & Francis}
+    year  = {2020}
 }
 ```
