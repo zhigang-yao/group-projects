@@ -50,6 +50,13 @@ txt{
   color: var(--NUSBlue);
 }
 
+txt_small{
+  font-size: 1.5em;
+  margin-bottom: 1.5em;
+  color: var(--NUSBlue);
+  text-align: justify;
+}
+
 .cards {
   display: flex;
   padding: 0px 0px;
@@ -204,10 +211,18 @@ txt{
       <br>
       <br>
       <txt>{{ config.site_description }}</txt>
+      <br>
+      <br>
+      <txt_small>We are a vibrant and innovative group situated within the Department of Statistics and Data Science. 
+      <br>
+      Our dynamic team is composed of accomplished research fellows and motivated graduate students, under the guidance of a dedicated faculty member.
+      <br>
+      We focus on the intersection of statistics and geometry in data science and explore its profound implications within the realm of authentic data science.
+      <br>
+      We have forged strong affiliations with our colleagues around the world, including leading experts in geometry, statistics, and various scientific disciplines.</txt_small>
     </div>
   </center>
   
-  <br>
   <br>
   <div class="container">
     <h2>Selected methods</h2>
@@ -308,9 +323,6 @@ txt{
     </ul>
   </div>
 
-  <!-- <div textclass="justify-text">
-    We are a vibrant and innovative group situated within the Department of Statistics and Data Science, under the guidance of a dedicated faculty member. Our dynamic team is composed of accomplished research fellows and motivated graduate students. Our primary research passion lies at the fascinating intersection of statistics and geometry, where we explore its profound implications within the realm of authentic data science. Furthermore, we have cultivated robust collaborations with esteemed colleagues from around the globe, including leading experts in geometry, statistics, and various scientific disciplines.
-  </div> -->
 {% endblock %}
 
 {% block content %}{% endblock %}
