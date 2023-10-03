@@ -7,7 +7,7 @@
 
 #### Harvard Conference on Geometry and Statistics   <a href="https://cmsa.fas.harvard.edu/event/geometry-and-statistics/" class="btn-href">:octicons-link-16:</a>
 
-:octicons-location-16: SCenter of Mathematical Sciences and Applications, Harvard University   
+:octicons-location-16: Center of Mathematical Sciences and Applications, Harvard University   
 :octicons-clock-16: February 27, 2023
 
 #### Tsinghua Seminar <a href="https://ymsc.tsinghua.edu.cn/info/1057/3299.htm" class="btn-href">:octicons-link-16:</a> 
