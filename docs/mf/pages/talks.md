@@ -21,7 +21,7 @@
 :octicons-location-16: Shanghai  
 :octicons-clock-16: July 24, 2023
 
-#### RSS Talk <a href="https://rss.org.uk/training-events/events/events-2023/local-groups/manifold-fitting/#fulleventinfo" class="btn-href">:octicons-link-16:</a> 
+#### RSS Seminar <a href="https://rss.org.uk/training-events/events/events-2023/local-groups/manifold-fitting/#fulleventinfo" class="btn-href">:octicons-link-16:</a> 
 
 :octicons-location-16: University of Kent, Canterbury  
 :octicons-clock-16: November 23, 2023
