@@ -20,3 +20,13 @@
 
 :octicons-location-16: Shanghai  
 :octicons-clock-16: July 24, 2023
+
+#### RSS Talk <a href="https://rss.org.uk/training-events/events/events-2023/local-groups/manifold-fitting/#fulleventinfo" class="btn-href">:octicons-link-16:</a> 
+
+:octicons-location-16: University of Kent, Canterbury  
+:octicons-clock-16: November 23, 2023
+
+#### Cambridge Statistics Series Talk <a href="http://talks.cam.ac.uk/talk/index/206023" class="btn-href">:octicons-link-16:</a> 
+
+:octicons-location-16: Centre for Mathematical Sciences, Cambridge  
+:octicons-clock-16: November 24, 2023
