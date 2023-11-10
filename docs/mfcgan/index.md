@@ -11,7 +11,7 @@ Detailed description and discussion can be found in paper: :material-arrow-right
 To cite: :material-arrow-down:
 ```
 @article{yao2023manifold,
-  title={HManifold Fitting with CycleGAN},
+  title={Manifold Fitting with CycleGAN},
   author={Yao, Zhigang and Su, Jiaji and Yau, Shing-Tung},
   journal={Technical Report},
   year={2023}
