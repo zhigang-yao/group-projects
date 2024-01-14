@@ -110,3 +110,5 @@ nav:
     - pb/pages/talks.md
   - MFCGAN:
     - mfcgan/index.md
+  - scAMF:
+    - scamf/index.md

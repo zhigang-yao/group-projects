@@ -13,7 +13,7 @@ To cite: :material-arrow-down:
 @article{yao2023manifold,
   title={Manifold Fitting with CycleGAN},
   author={Yao, Zhigang and Su, Jiaji and Yau, Shing-Tung},
-  journal={Technical Report},
-  year={2023}
+  journal = {Proceedings of the National Academy of Sciences},
+  year={2024}
 }
 ```
