@@ -7,13 +7,19 @@ Through extensive simulations and real-data experiments, we demonstrate the prec
 </div>
 
 An implementation in Pytorch is available on Github: :material-arrow-right: <a href="https://github.com/zhigang-yao/MFCGAN" class="btn-href">:simple-github:</a>  
-Detailed description and discussion can be found in paper: :material-arrow-right: <a href="" class="btn-href">:material-newspaper-variant-outline:</a>  
+Detailed description and discussion can be found in paper: :material-arrow-right: <a href="https://www.pnas.org/doi/10.1073/pnas.2311436121" class="btn-href">:material-newspaper-variant-outline:</a>  
 To cite: :material-arrow-down:
 ```
-@article{yao2023manifold,
-  title={Manifold Fitting with CycleGAN},
-  author={Yao, Zhigang and Su, Jiaji and Yau, Shing-Tung},
-  journal = {Proceedings of the National Academy of Sciences},
-  year={2024}
+@article{doi:10.1073/pnas.2311436121,
+author = {Zhigang Yao  and Jiaji Su  and Shing-Tung Yau },
+title = {Manifold fitting with CycleGAN},
+journal = {Proceedings of the National Academy of Sciences},
+volume = {121},
+number = {5},
+pages = {e2311436121},
+year = {2024},
+doi = {10.1073/pnas.2311436121},
+URL = {https://www.pnas.org/doi/abs/10.1073/pnas.2311436121}
 }
+
 ```
