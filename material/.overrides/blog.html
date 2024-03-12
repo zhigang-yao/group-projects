@@ -13,19 +13,6 @@
   --thumb: #edf2f4;
 }
 
-/* * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  font: 16px / 24px "Rubik", sans-serif;
-  color: var(--black);
-  background: var(--platinum);
-  margin: 0 0;
-} */
-
 .container {
   max-width: 90%;
   padding: 0 0px;
@@ -34,6 +21,11 @@ body {
 
 h2 {
   font-size: 3em;
+  margin-bottom: 0.5em;
+  color: var(--NUSBlue);
+}
+h3 {
+  font-size: 2.5em;
   margin-bottom: 0.5em;
   color: var(--NUSBlue);
 }
@@ -167,16 +159,6 @@ txt_small{
   }
 
 }
-
-/* @media (min-width: 1100px) {
-  .card {
-    flex-basis: calc(25% - 30px);
-  }
-
-  .card:not(:last-child) {
-    margin-right: 40px;
-  }
-} */
 iframe { width: 90%; 
   height: 800px; 
   border: 2px solid #ccc; 
@@ -190,52 +172,13 @@ iframe { width: 90%;
 }
   </style>
 
-  <!-- <section class="mdx-container">
-    <div class="md-grid md-typeset">
-      <div class="mdx-hero">
-        <div class="mdx-hero__image">
-          <img src="assets/images/cy_manifold.png" alt="" width="800" height="510" draggable="false" class="center">
-        </div>
-        <div class="mdx-hero__content">
-          <h2>{{ config.home_name}}</h2>
-          <p>{{ config.site_description }}</p>
-          <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
-            Quick start
-          </a>
-          <a href="{{ 'insiders/' | url }}" title="Material for MkDocs Insiders" class="md-button">
-            Get Insiders
-          </a>
-        </div>
-      </div>
-    </div>
-  </section> -->
 
-
-  <center>  
-    <br>
-    <div class="container">
-      <img src="assets/images/nus-news.jpeg" alt="" width=60% height=auto draggable="false">
-      <br>      <br>
-      <hh>{{ config.home_name}}</hh>
-      
-      <br>
-      <br>
-      <txt>{{ config.site_description }}</txt>
-      <br>
-      <br>
-      <txt_small>We are a vibrant and innovative group situated within the Department of Statistics and Data Science. 
-      <br>
-      Composed of accomplished research fellows and motivated graduate students, under the guidance of a dedicated faculty member.
-      <br>
-      Focus on the intersection of statistics and geometry in data science and explore its profound implications within the realm of authentic data science.
-      <br>
-      Forged strong affiliations with our colleagues around the world, including leading experts in geometry, statistics, and various scientific disciplines.</txt_small>
-    </div>
-  </center>
-  
   <br>
   <div class="container">
-    <h2>Selected methods</h2>
+    <center>
+        <h2>Interaction of Statistics and Geometry</h2>
+    </center>
+    <h3>Theory</h3>
       
     <ul class="cards">
 
@@ -244,13 +187,13 @@ iframe { width: 90%;
           <h3 class="card-title">Principal Flows</h3>
           <div class="card-content">
             <center>
-              <img src="assets/images/pf.png" alt="Principal Flows" style="width: 100%;" draggable="false">
+              <img src="../assets/images/pf.png" alt="Principal Flows" style="width: 100%;" draggable="false">
             </center>
             <p>Curves on the manifold serve as an analogous of principal components. </p>
           </div>
         </div>
         <div class="card-link-wrapper">
-          <a href="pf/" class="card-link">Learn More</a>
+          <a href="../pf/" class="card-link">Learn More</a>
         </div>
       </li>
 
@@ -259,13 +202,13 @@ iframe { width: 90%;
           <h3 class="card-title">Manifold Fitting</h3>
           <div class="card-content">
             <center>
-              <img src="assets/images/mf.png" alt="Manifold Fitting" style="width: 100%;" draggable="false">
+              <img src="../assets/images/mf.png" alt="Manifold Fitting" style="width: 100%;" draggable="false">
             </center>
             <p>Fit smooth low-dim manifolds from high-dim noisy data points.</p>
           </div>
         </div>
         <div class="card-link-wrapper">
-          <a href="mf/" class="card-link">Learn More</a>
+          <a href="../mf/" class="card-link">Learn More</a>
         </div>
       </li>
 
@@ -274,13 +217,13 @@ iframe { width: 90%;
           <h3 class="card-title">Principal Submanifolds</h3>
           <div class="card-content">
             <center>
-              <img src="assets/images/submanifold.png" alt="Principal Submanifolds" style="width: 100%;" draggable="false">
+              <img src="../assets/images/submanifold.png" alt="Principal Submanifolds" style="width: 100%;" draggable="false">
             </center>
             <p>Multi-dimensional generalization of principal flows.</p>
           </div>
         </div>
         <div class="card-link-wrapper">
-          <a href="sub" class="card-link">Learn More</a>
+          <a href="../sub" class="card-link">Learn More</a>
         </div>
       </li>
 
@@ -290,13 +233,13 @@ iframe { width: 90%;
           <h3 class="card-title">Fixed Boundary Flows</h3>
           <div class="card-content">
             <center>
-              <img src="assets/images/fbf.png" alt="Fixed Boundary Flows" style="width: 100%;" draggable="false">
+              <img src="../assets/images/fbf.png" alt="Fixed Boundary Flows" style="width: 100%;" draggable="false">
             </center>
             <p>Conditional extension of principal flows with fixed boundary points.</p>
           </div>
         </div>
         <div class="card-link-wrapper">
-          <a href="fbf" class="card-link">Learn More</a>
+          <a href="../fbf" class="card-link">Learn More</a>
         </div>
       </li>
 
@@ -306,54 +249,52 @@ iframe { width: 90%;
           <h3 class="card-title">Principal Boundary</h3>
           <div class="card-content">
             <center>
-              <img src="assets/images/pb2_small.png" alt="Principal Boundary" style="width: 100%;" draggable="false">
+              <img src="../assets/images/pb2_small.png" alt="Principal Boundary" style="width: 100%;" draggable="false">
             </center>
             <p>Principal decision boundary on Riemannian manifolds.</p>
           </div>
         </div>
         <div class="card-link-wrapper">
-          <a href="pb" class="card-link">Learn More</a>
-        </div>
-      </li>
-
-      <li class="card filter-image">
-        <div>
-          <h3 class="card-title">MFCGAN</h3>
-          <div class="card-content">
-            <center>
-              <img src="assets/images/mfcgan.png" alt="MFCGAN" style="width: 100%;" draggable="false">
-            </center>
-            <p>Combination of manifold fitting with CycleGAN.</p>
-          </div>
-        </div>
-        <div class="card-link-wrapper">
-          <a href="mfcgan" class="card-link">Learn More</a>
-        </div>
-      </li>
-
-      <li class="card filter-image">
-        <div>
-          <h3 class="card-title">scAMF</h3>
-          <div class="card-content">
-            <center>
-              <img src="assets/images/scamf.png" alt="scamf" style="width: 100%;" draggable="false">
-            </center>
-            <p>Single-Cell Analysis via Manifold Fitting.</p>
-          </div>
-        </div>
-        <div class="card-link-wrapper">
-          <a href="scamf" class="card-link">Learn More</a>
+          <a href="../pb" class="card-link">Learn More</a>
         </div>
       </li>
 
     </ul>
 
-    <h2>Privatissimum</h2>
-    <txt><span id="last-modified-date">Updated on: </span>, click <a href="https://www.notion.so/sujiaji/cb02715c306e40ca8d8b2bac4dd200e2?v=c51e0b55b57d452ba63d20f384a2c113&pvs=4" style = "color: var(--NUSOrange)">here</a> to check the live version and the calendar view.<br><br></txt>
-    
-      <center>
-        <iframe src="pri/pri.html"></iframe>
-      </center>
+    <h3>Application</h3>
+    <ul class="cards">
+  
+        <li class="card filter-image">
+          <div>
+            <h3 class="card-title">MFCGAN</h3>
+            <div class="card-content">
+              <center>
+                <img src="../assets/images/mfcgan.png" alt="MFCGAN" style="width: 100%;" draggable="false">
+              </center>
+              <p>Combination of manifold fitting with CycleGAN.</p>
+            </div>
+          </div>
+          <div class="card-link-wrapper">
+            <a href="../mfcgan" class="card-link">Learn More</a>
+          </div>
+        </li>
+  
+        <li class="card filter-image">
+          <div>
+            <h3 class="card-title">scAMF</h3>
+            <div class="card-content">
+              <center>
+                <img src="../assets/images/scamf.png" alt="scamf" style="width: 100%;" draggable="false">
+              </center>
+              <p>Single-Cell Analysis via Manifold Fitting.</p>
+            </div>
+          </div>
+          <div class="card-link-wrapper">
+            <a href="../scamf" class="card-link">Learn More</a>
+          </div>
+        </li>
+  
+      </ul>
   </div>
 
 
