@@ -1,4 +1,4 @@
 ---
 template: blog.html
-title: Research Focus
+title: Gallery View
 ---

@@ -4,7 +4,7 @@ site_description: >-
   We engage in the interaction between statistics and geometry
 
 home_name: Yao Group Page
-copyright: Copyright &copy; 2023 Yao Group Members. ALL RIGHTS RESERVED.
+copyright: Copyright &copy; 2024 Yao Group Members. ALL RIGHTS RESERVED.
 
 theme:
   name: material
@@ -92,24 +92,16 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Principal Flows: 
-    - pf/index.md
-    - pf/pages/talks.md
-    # - pf/pages/test.md
-  - Manifold Fitting: 
-    - mf/index.md
-    - mf/pages/talks.md
-    - mf/pages/model_setting.md
-  - Principal Submanifolds:
-    - sub/index.md
-    - sub/pages/talks.md
-  - Fixed Boundary Flows:
-    - fbf/index.md
-    - fbf/pages/talks.md
-  - Principal Boundary:
-    - pb/index.md
-    - pb/pages/talks.md
-  - MFCGAN:
-    - mfcgan/index.md
-  - scAMF:
-    - scamf/index.md
+  - Research Focuses:
+    - research/index.md
+    - Theories:
+      - pf/index.md
+      - mf/index.md
+      - sub/index.md
+      - fbf/index.md
+      - pb/index.md
+    - Applications:
+      - mfcgan/index.md
+      - scamf/index.md
+  - Privatissimum:
+      - pri/index.md

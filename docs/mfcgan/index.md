@@ -1,5 +1,5 @@
-# Overview
-
+# MFCGAN
+## Overview
 <div class="justify-text">
 This project pioneers a novel approach using neural networks within the generative adversarial network (GAN) framework for manifold fitting, a crucial challenge in non-linear data analysis. This method learns mappings between low-dimensional latent spaces and high-dimensional ambient spaces, akin to Riemannian exponential and logarithmic maps, providing manifold estimations, data projection, and even data generation within the manifold.
 <br><br>
@@ -23,3 +23,10 @@ URL = {https://www.pnas.org/doi/abs/10.1073/pnas.2311436121}
 }
 
 ```
+
+## Selected Talks
+
+#### Tsinghua Seminar <a href="https://ymsc.tsinghua.edu.cn/info/1057/3622.htm" class="btn-href">:octicons-link-16:</a> 
+
+:octicons-location-16: Yau Mathematical Sciences Center, Tsinghua University  
+:octicons-clock-16: July 4, 2023

@@ -1,4 +1,5 @@
-# Overview
+# Principal Boundary
+## Overview
 
 <div class="justify-text">
 This project delves into the classification problem, with a specific focus on non-linear methods applied to datasets residing on embedded non-linear Riemannian manifolds within higher-dimensional ambient spaces. Our objective is to establish a classification boundary for labeled classes, leveraging the intrinsic metric of these manifolds.
@@ -23,3 +24,10 @@ To cite: :material-arrow-down:
     year  = {2020}
 }
 ```
+
+## Selected Talks
+
+#### Duke Math Seminar <a href="https://math.duke.edu/events/principal-flows-submanifolds-and-boundaries" class="btn-href">:octicons-link-16:</a>  
+
+:octicons-location-16: Department of Mathematics, Duke   
+:octicons-clock-16: March 21, 2023
