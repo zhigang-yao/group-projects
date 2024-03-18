@@ -56,13 +56,30 @@ iframe { width: 100%;
   align-items: center;
 }
   </style>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      var iframe = document.getElementById('pripage');
+      
+      // Add a 'load' event listener to the iframe
+      iframe.addEventListener('load', function() {
+          // Now that the iframe is loaded, modify its content
+          var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+          var links = iframeDocument.getElementsByTagName('a');
+          for (var i = 0; i < links.length; i++) {
+              links[i].target = '_blank';
+          }
+      });
+  });
+</script>
+
+    
 
 
   <div class="container">
     <br><br>
     <txt><span id="last-modified-date">Last updated on: </span>, click <a href="https://www.notion.so/sujiaji/cb02715c306e40ca8d8b2bac4dd200e2?v=c51e0b55b57d452ba63d20f384a2c113&pvs=4" style = "color: var(--NUSOrange)">here</a> to check the live version and the calendar view.<br><br></txt>
     <center>
-        <iframe src="./pri.html"></iframe>
+        <iframe id="pripage" src="./pri.html"></iframe>
     </center>
         
   </div>
