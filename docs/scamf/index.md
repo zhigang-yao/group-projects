@@ -5,7 +5,7 @@
 This project ...
 </div>
 
-An implementation in Pytorch is available on Github: :material-arrow-right: <a href="https://github.com/zhigang-yao/scAMF" class="btn-href">:simple-github:</a>  
+An implementation in Matlab is available on Github: :material-arrow-right: <a href="https://github.com/zhigang-yao/scAMF" class="btn-href">:simple-github:</a>  
 Detailed description and discussion can be found in paper: :material-arrow-right: <a href="" class="btn-href">:material-newspaper-variant-outline:</a>  
 To cite: :material-arrow-down:
 ```
