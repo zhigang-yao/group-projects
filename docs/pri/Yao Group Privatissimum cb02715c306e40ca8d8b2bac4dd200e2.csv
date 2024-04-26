@@ -1,24 +1,44 @@
 ﻿Time (GMT+8),Speaker,Topic,Details,Format,Location
-25/01/2024 11:00 (GMT+8),https://sites.google.com/view/rongtang (HKUST),"Minimax adversarial loss
+25/01/2024 11:00 (GMT+8),"https://sites.google.com/view/rongtang
+(HKUST)","Minimax adversarial loss
 Submanifold",Minimax Rate of Distribution Estimation on Unknown Submanifold under Adversarial Losses.,Offline,"SRC 01-03E, UTown, NUS"
-31/01/2024 11:00 (GMT+8),https://www.math.hkbu.edu.hk/~haoliu/index.html (HKBU),"Learning theory
+31/01/2024 11:00 (GMT+8),"https://www.math.hkbu.edu.hk/~haoliu/index.html
+(HKBU)","Learning theory
 Low-dim structure",Deep Learning Theories for Problems with Low–Dimensional Structures,Hybird,"S16 07-107, NUS"
-07/02/2024 11:00 (GMT+8),https://matbc.github.io/ (THU),CryoEM,Robust AI-aided Imaging Models with Unpaired Data,Hybird,"S16 07-107, NUS"
-29/02/2024 10:30 (GMT+8),https://zhigang-yao.github.io/index.html (NUS),Manifold fitting,Manifold Fitting with CycleGAN,Hybird,"YMSC, THU"
-06/03/2024 9:00 (GMT+8),https://sites.gatech.edu/shihao-yang/ (Gatech),Dynamic system inference,Inference of dynamic systems from noisy and sparse data via physics-informed Gaussian processes,Hybird,"S16 07-107, NUS"
-20/03/2024 9:00 (GMT+8),https://sph.unc.edu/adv_profile/di-wu-phd/  (UNC),Novel statistical bioinformatics method,"Novel Statistical Methods for Integrative Analysis of Metagenome, Metatranscriptome and Metabolome Applied in a Cohort of Early Childhood Caries (ECC)",Hybird,"S16 07-107, NUS"
-27/03/2024 9:00 (GMT+8),https://sites.google.com/site/rongmastat/home (Havard),Single-cell data integration,Is you data alignable? A geometric view of single-cell data integration.,Hybird,"S16 07-107, NUS"
-02/04/2024 16:00 (GMT+8),https://zhigang-yao.github.io/index.html (NUS),Fixed Boundary Flows,"Principal Flow, Sub-Manifold and Boundary",Hybird,"Statistics, THU"
-05/04/2024 15:50 (GMT+8),https://zhigang-yao.github.io/index.html (NUS),Manifold Fitting,"Manifold Fitting - An Invitation to Statistics ",Offline,"YMSC, THU"
-11/04/2024 9:00 (GMT+8),https://statistics.gmu.edu/profiles/wqiao (GMU),Ridge Estimation,Algorithms for ridge estimation with convergence guarantees,Hybird,"S16 07-107, NUS"
-17/04/2024 9:00 (GMT+8),https://sph.unc.edu/adv_profile/didong-li/ (UNC),Spatial Data Analysis,A Journey to Derivatives: From Historical Foundations to Spatial Omics,Hybird,"S16 07-107, NUS"
-24/04/2024 15:00 (GMT+8),https://www.cogai4sci.com/ (NUS),"Machine Learning
+07/02/2024 11:00 (GMT+8),"https://matbc.github.io/
+(THU)",CryoEM,Robust AI-aided Imaging Models with Unpaired Data,Hybird,"S16 07-107, NUS"
+29/02/2024 10:30 (GMT+8),"https://zhigang-yao.github.io/index.html
+(NUS)",Manifold fitting,Manifold Fitting with CycleGAN,Hybird,"YMSC, THU"
+06/03/2024 9:00 (GMT+8),"https://sites.gatech.edu/shihao-yang/
+(Georgia Tech)",Dynamic system inference,Inference of dynamic systems from noisy and sparse data via physics-informed Gaussian processes,Hybird,"S16 07-107, NUS"
+20/03/2024 9:00 (GMT+8),"https://sph.unc.edu/adv_profile/di-wu-phd/
+(UNC)",Novel statistical bioinformatics method,"Novel Statistical Methods for Integrative Analysis of Metagenome, Metatranscriptome and Metabolome Applied in a Cohort of Early Childhood Caries (ECC)",Hybird,"S16 07-107, NUS"
+27/03/2024 9:00 (GMT+8),"https://sites.google.com/site/rongmastat/home
+(Havard)",Single-cell data integration,Is you data alignable? A geometric view of single-cell data integration.,Hybird,"S16 07-107, NUS"
+02/04/2024 16:00 (GMT+8),"https://zhigang-yao.github.io/index.html
+(NUS)",Fixed Boundary Flows,"Principal Flow, Sub-Manifold and Boundary",Hybird,"Statistics, THU"
+05/04/2024 15:50 (GMT+8),"https://zhigang-yao.github.io/index.html
+(NUS)",Manifold Fitting,"Manifold Fitting - An Invitation to Statistics ",Offline,"YMSC, THU"
+11/04/2024 9:00 (GMT+8),"https://statistics.gmu.edu/profiles/wqiao
+(GMU)",Ridge Estimation,Algorithms for ridge estimation with convergence guarantees,Hybird,"S16 07-107, NUS"
+17/04/2024 9:00 (GMT+8),"https://sph.unc.edu/adv_profile/didong-li/
+(UNC)",Spatial Data Analysis,A Journey to Derivatives: From Historical Foundations to Spatial Omics,Hybird,"S16 07-107, NUS"
+24/04/2024 15:00 (GMT+8),"https://www.cogai4sci.com/
+(NUS)","Machine Learning
 scRNA",Cognitively Inspired Machine Learning for Biomedical Sciences,Offline,"DSDS, NUS"
-29/04/2024 15:00 (GMT+8),https://www.mpinat.mpg.de/grubmueller/staff/111504 (MPG),"Torus PCA
+29/04/2024 15:00 (GMT+8),"https://www.mpinat.mpg.de/grubmueller/staff/111504
+(Max-Planck-Gesellschaft)","Torus PCA
 Biological Data",Multi-scale Modelling of Biomolecules,Hybird,"S16 07-107, NUS"
-08/05/2024 13:00 (GMT+8),http://www.stat.tsinghua.edu.cn/teachers/qianlin/ (THU),"Learning theory
+08/05/2024 13:00 (GMT+8),"http://www.stat.tsinghua.edu.cn/teachers/qianlin/
+(THU)","Learning theory
 Deep neural networks",Towards a statistical understanding of deep neural network: beyond the neural tangent kernel theory,Hybird,"S16 07-107, NUS"
-14/05/2024,https://zhigang-yao.github.io/index.html (NUS),Manifold fitting,SIAM Conference on Applied Linear Algebra,Offline,"Sorbonne Université, Pairs"
-19/05/2024 11:00 (GMT+8),Hong Chengkuan (THU),Deep Neyman-Scott Processes,Deep Neyman-Scott Processes,Hybird,
-12/06/2024,https://ling-pan.github.io/ (HKUST),TBA,TBA,Hybird,"SIMIS, Shanghai"
-26/06/2024,https://sites.harvard.edu/junliu/ (Harvard),TBA,TBA,Hybird,"SIMIS, Shanghai"
+14/05/2024 17:00 (GMT+8),"https://zhigang-yao.github.io/index.html
+(NUS)",Manifold fitting,SIAM Conference on Applied Linear Algebra,Offline,"Sorbonne Université, Pairs"
+19/05/2024 11:00 (GMT+8),"Hong Chengkuan
+(THU)",Deep Neyman-Scott Processes,Deep Neyman-Scott Processes,Hybird,
+12/06/2024 10:00 (GMT+8),"https://ling-pan.github.io/
+(HKUST)",TBA,TBA,Hybird,"SIMIS, Shanghai"
+12/06/2024 15:00 (GMT+8),"https://studip.uni-goettingen.de/extern.php?module=TemplatePersondetails&config_id=b9c9db9d8adf76dadf35774d2c91de9f&range_id=2b648cb9a0cf4573c5d4c3d661e6d1df&username=huckeman
+(University of Goettingen)",TBA,TBA,Hybird,"SIMIS, Shanghai"
+26/06/2024,"https://sites.harvard.edu/junliu/
+(Harvard)",TBA,TBA,Hybird,"SIMIS, Shanghai"
