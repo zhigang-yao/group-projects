@@ -103,5 +103,6 @@ nav:
     - Applications:
       - mfcgan/index.md
       - scamf/index.md
+      - cellscape/index.md
   - Privatissimum:
       - pri/index.md
