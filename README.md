@@ -1,8 +1,8 @@
 # Yao Group Page
 
 ## Overview
-This is a repository for our (group page)[https://zhigang-yao.github.io/group-projects/].
-The website is based on (mkdocs-material)[https://squidfunk.github.io/mkdocs-material/], with customized (homepage)[https://zhigang-yao.github.io/group-projects/], (Notion embedding page)[https://zhigang-yao.github.io/group-projects/], and (projects gallery)[https://zhigang-yao.github.io/group-projects/].
+This is a repository for our [group page](https://zhigang-yao.github.io/group-projects/).
+The website is based on [mkdocs-material](https://squidfunk.github.io/mkdocs-material/), with customized [homepage](https://zhigang-yao.github.io/group-projects/), [Notion embedding page](https://zhigang-yao.github.io/group-projects/), and [projects gallery](https://zhigang-yao.github.io/group-projects/).
 
 ## Maintenance
 ### Update the seminar list:
