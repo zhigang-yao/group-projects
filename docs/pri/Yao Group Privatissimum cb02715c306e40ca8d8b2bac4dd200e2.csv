@@ -1,78 +1,78 @@
 ﻿Time (GMT+8),Speaker,Topic,Details,Format,Location
-25/01/2024 11:00 (GMT+8),"Tang Rong
-(HKUST)","Minimax adversarial loss
-Submanifold",Minimax Rate of Distribution Estimation on Unknown Submanifold under Adversarial Losses.,Offline,"NUS, SRC 01-03E, UTown"
-31/01/2024 11:00 (GMT+8),"Liu Hao
-(HKBU)","Learning theory
-Low-dim structure",Deep Learning Theories for Problems with Low–Dimensional Structures,Hybird,"DSDS, NUS, S16 07-107"
-07/02/2024 11:00 (GMT+8),"Bao Chenglong
-(THU)",CryoEM,Robust AI-aided Imaging Models with Unpaired Data,Hybird,"DSDS, NUS, S16 07-107"
-29/02/2024 10:30 (GMT+8),"Yao Zhigang
-(NUS)",Manifold fitting,Manifold Fitting with CycleGAN,Hybird,"THU, YMSC"
-06/03/2024 9:00 (GMT+8),"Yang Shihao
-(Georgia Tech)",Dynamic system inference,Inference of dynamic systems from noisy and sparse data via physics-informed Gaussian processes,Hybird,"DSDS, NUS, S16 07-107"
-20/03/2024 9:00 (GMT+8),"Wu Di
-(UNC)",Novel statistical bioinformatics method,"Novel Statistical Methods for Integrative Analysis of Metagenome, Metatranscriptome and Metabolome Applied in a Cohort of Early Childhood Caries (ECC)",Hybird,"DSDS, NUS, S16 07-107"
-27/03/2024 9:00 (GMT+8),"Ma Rong
-(Havard)",Single-cell data integration,Is you data alignable? A geometric view of single-cell data integration.,Hybird,"DSDS, NUS, S16 07-107"
-02/04/2024 16:00 (GMT+8),"Yao Zhigang
-(NUS)",Fixed Boundary Flows,"Principal Flow, Sub-Manifold and Boundary",Hybird,"Statistics, THU"
-05/04/2024 15:50 (GMT+8),"Yao Zhigang
-(NUS)",Manifold Fitting,"Manifold Fitting - An Invitation to Statistics ",Offline,"THU, YMSC"
-11/04/2024 9:00 (GMT+8),"Qiao Wanli
-(GMU)",Ridge Estimation,Algorithms for ridge estimation with convergence guarantees,Hybird,"DSDS, NUS, S16 07-107"
-17/04/2024 9:00 (GMT+8),"Li Didong
-(UNC)",Spatial Data Analysis,A Journey to Derivatives: From Historical Foundations to Spatial Omics,Hybird,"DSDS, NUS, S16 07-107"
-24/04/2024 15:00 (GMT+8),"Liu Dianbo
-(NUS)","Machine Learning
-scRNA",Cognitively Inspired Machine Learning for Biomedical Sciences,Offline,"DSDS, NUS"
-29/04/2024 15:00 (GMT+8),"Benjamin Eltzner
-(Max-Planck-Gesellschaft)","Torus PCA
-Biological Data",Multi-scale Modelling of Biomolecules,Hybird,"DSDS, NUS, S16 07-107"
-08/05/2024 13:00 (GMT+8),"Lin Qian
-(THU)","Learning theory
-Deep neural networks",Towards a statistical understanding of deep neural network: beyond the neural tangent kernel theory,Hybird,"DSDS, NUS, S16 07-107"
-14/05/2024 17:00 (GMT+8),"Yao Zhigang
-(NUS)",Manifold fitting,SIAM Conference on Applied Linear Algebra,Offline,"Pairs, Sorbonne Université"
-19/05/2024 21:00 (GMT+8),"Hong Chengkuan
-(THU)",Deep Neyman-Scott Processes,Deep Neyman-Scott Processes,Online,NUS
-05/06/2024 10:00 (GMT+8),"Zhigang Yao
-(NUS)",Manifold Fitting,Principal flows/submanifolds and random fixed boundary flows,Hybird,"SIMIS, Shanghai"
-05/06/2024 15:00 (GMT+8),"Jiaji Su
-(NUS)",Principal Nested Submanifolds,Principal Nested Submanifolds,Hybird,"SIMIS, Shanghai"
-12/06/2024 10:00 (GMT+8),"Ling Pan
-(HKUST)",Reinforcement Learning,"Towards Robust, Efficient and Practical Decision Making: From Reward-Maximizing Deep Reinforcement Learning to Reward-Matching GFlowNets",Hybird,"SIMIS, Shanghai"
-12/06/2024 15:00 (GMT+8),"Stephan Huckemann
-(University of Goettingen)","Non-Euclidean Statistics
-Generalized Fréchet Mean",Non-Euclidean Statistics Building on Generalized Fréchet Means and Applications,Hybird,"SIMIS, Shanghai"
-19/06/2024 9:00 (GMT+8),"Yue Lu
-(Harvard)",In-context Learning,Asymptotic theory of in-context learning by linear attention,Hybird,"SIMIS, Shanghai"
-19/06/2024 15:30 (GMT+8),"Tailin Wu
-(Westlake University)","Diffusion generative
-models",Compositional inverse design and control with diffusion generative models,Hybird,"SIMIS, Shanghai"
-26/06/2024 10:00 (GMT+8),"Yang Lijian
-(Tsinghua Univeristy)",Functional Data,Statistical Inference for Functional Data over Multi-dimensional Domain,Hybird,"SIMIS, Shanghai"
-03/07/2024 15:30 (GMT+8),"Po-Ling Loh
-(Cambridge)",M-estimation,Differentially private M-estimation via noisy optimization,Hybird,"SIMIS, Shanghai"
-04/07/2024 15:30 (GMT+8),"Jun Liu
-(Harvard)
-Different from regular time",False discovery rate control,Some recent results for p-value free FDR Controls,Hybird,"SIMIS, Shanghai"
-10/07/2024 10:00 (GMT+8),"Lin Lizhen
-(University of Maryland)",Learning Theory,Statistical  theory of deep generative models,Hybird,"SIMIS, Shanghai"
-10/07/2024 15:30 (GMT+8),"Richard Samworth
-(Cambridge)",Optimal convex M-estimation,Optimal convex M-estimation via score matching,Hybird,"SIMIS, Shanghai"
-11/07/2024 10:00 (GMT+8),"Ming Yuan
-(Columbia)
-Different from regular time",TBA,TBA,Hybird,"SIMIS, Shanghai"
-17/07/2024 10:00 (GMT+8),"Kang Jian
-(University of Michigan)","Manifold learning
-Bayesian",Scalable Bayesian inference for heat kernel Gaussian processes on manifolds,Hybird,"SIMIS, Shanghai"
-17/07/2024 15:30 (GMT+8),"Qiang Zhang
-(Zhejiang University)",AI4Science,Language and Knowledge Driven Scientific Discovery,Hybird,"SIMIS, Shanghai"
+31/07/2024,"Benjamin Eltzner
+(Max-Planck-Gesellschaft)",TBA,TBA,Hybird,"SIMIS, Shanghai"
+24/07/2024 15:30 (GMT+8),"Debashis Paul
+(UCSD)",TBA,TBA,Hybird,"SIMIS, Shanghai"
 18/07/2024 9:00 (GMT+8),"Bodhisattva Sen
 (Columbia)
 Different from regular time",TBA,TBA,Hybird,"SIMIS, Shanghai"
-24/07/2024 15:30 (GMT+8),"Debashis Paul
-(UCSD)",TBA,TBA,Hybird,"SIMIS, Shanghai"
-31/07/2024,"Benjamin Eltzner
-(Max-Planck-Gesellschaft)",TBA,TBA,Hybird,"SIMIS, Shanghai"
+17/07/2024 15:30 (GMT+8),"Qiang Zhang
+(Zhejiang University)",AI4Science,Language and Knowledge Driven Scientific Discovery,Hybird,"SIMIS, Shanghai"
+17/07/2024 10:00 (GMT+8),"Kang Jian
+(University of Michigan)","Manifold learning
+Bayesian",Scalable Bayesian inference for heat kernel Gaussian processes on manifolds,Hybird,"SIMIS, Shanghai"
+11/07/2024 10:00 (GMT+8),"Ming Yuan
+(Columbia)
+Different from regular time",TBA,TBA,Hybird,"SIMIS, Shanghai"
+10/07/2024 15:30 (GMT+8),"Richard Samworth
+(Cambridge)",Optimal convex M-estimation,Optimal convex M-estimation via score matching,Hybird,"SIMIS, Shanghai"
+10/07/2024 10:00 (GMT+8),"Lin Lizhen
+(University of Maryland)",Learning Theory,Statistical  theory of deep generative models,Hybird,"SIMIS, Shanghai"
+04/07/2024 15:30 (GMT+8),"Jun Liu
+(Harvard)
+Different from regular time",False discovery rate control,Some recent results for p-value free FDR Controls,Hybird,"SIMIS, Shanghai"
+03/07/2024 15:30 (GMT+8),"Po-Ling Loh
+(Cambridge)",M-estimation,Differentially private M-estimation via noisy optimization,Hybird,"SIMIS, Shanghai"
+26/06/2024 10:00 (GMT+8),"Yang Lijian
+(Tsinghua Univeristy)",Functional Data,Statistical Inference for Functional Data over Multi-dimensional Domain,Hybird,"SIMIS, Shanghai"
+19/06/2024 15:30 (GMT+8),"Tailin Wu
+(Westlake University)","Diffusion generative
+models",Compositional inverse design and control with diffusion generative models,Hybird,"SIMIS, Shanghai"
+19/06/2024 9:00 (GMT+8),"Yue Lu
+(Harvard)",In-context Learning,Asymptotic theory of in-context learning by linear attention,Hybird,"SIMIS, Shanghai"
+12/06/2024 15:00 (GMT+8),"Stephan Huckemann
+(University of Goettingen)","Non-Euclidean Statistics
+Generalized Fréchet Mean",Non-Euclidean Statistics Building on Generalized Fréchet Means and Applications,Hybird,"SIMIS, Shanghai"
+12/06/2024 10:00 (GMT+8),"Ling Pan
+(HKUST)",Reinforcement Learning,"Towards Robust, Efficient and Practical Decision Making: From Reward-Maximizing Deep Reinforcement Learning to Reward-Matching GFlowNets",Hybird,"SIMIS, Shanghai"
+05/06/2024 15:00 (GMT+8),"Jiaji Su
+(NUS)",Principal Nested Submanifolds,Principal Nested Submanifolds,Hybird,"SIMIS, Shanghai"
+05/06/2024 10:00 (GMT+8),"Zhigang Yao
+(NUS)",Manifold Fitting,Principal flows/submanifolds and random fixed boundary flows,Hybird,"SIMIS, Shanghai"
+19/05/2024 21:00 (GMT+8),"Hong Chengkuan
+(THU)",Deep Neyman-Scott Processes,Deep Neyman-Scott Processes,Online,NUS
+14/05/2024 17:00 (GMT+8),"Yao Zhigang
+(NUS)",Manifold fitting,SIAM Conference on Applied Linear Algebra,Offline,"Pairs, Sorbonne Université"
+08/05/2024 13:00 (GMT+8),"Lin Qian
+(THU)","Learning theory
+Deep neural networks",Towards a statistical understanding of deep neural network: beyond the neural tangent kernel theory,Hybird,"DSDS, NUS, S16 07-107"
+29/04/2024 15:00 (GMT+8),"Benjamin Eltzner
+(Max-Planck-Gesellschaft)","Torus PCA
+Biological Data",Multi-scale Modelling of Biomolecules,Hybird,"DSDS, NUS, S16 07-107"
+24/04/2024 15:00 (GMT+8),"Liu Dianbo
+(NUS)","Machine Learning
+scRNA",Cognitively Inspired Machine Learning for Biomedical Sciences,Offline,"DSDS, NUS"
+17/04/2024 9:00 (GMT+8),"Li Didong
+(UNC)",Spatial Data Analysis,A Journey to Derivatives: From Historical Foundations to Spatial Omics,Hybird,"DSDS, NUS, S16 07-107"
+11/04/2024 9:00 (GMT+8),"Qiao Wanli
+(GMU)",Ridge Estimation,Algorithms for ridge estimation with convergence guarantees,Hybird,"DSDS, NUS, S16 07-107"
+05/04/2024 15:50 (GMT+8),"Yao Zhigang
+(NUS)",Manifold Fitting,"Manifold Fitting - An Invitation to Statistics ",Offline,"THU, YMSC"
+02/04/2024 16:00 (GMT+8),"Yao Zhigang
+(NUS)",Fixed Boundary Flows,"Principal Flow, Sub-Manifold and Boundary",Hybird,"Statistics, THU"
+27/03/2024 9:00 (GMT+8),"Ma Rong
+(Havard)",Single-cell data integration,Is you data alignable? A geometric view of single-cell data integration.,Hybird,"DSDS, NUS, S16 07-107"
+20/03/2024 9:00 (GMT+8),"Wu Di
+(UNC)",Novel statistical bioinformatics method,"Novel Statistical Methods for Integrative Analysis of Metagenome, Metatranscriptome and Metabolome Applied in a Cohort of Early Childhood Caries (ECC)",Hybird,"DSDS, NUS, S16 07-107"
+06/03/2024 9:00 (GMT+8),"Yang Shihao
+(Georgia Tech)",Dynamic system inference,Inference of dynamic systems from noisy and sparse data via physics-informed Gaussian processes,Hybird,"DSDS, NUS, S16 07-107"
+29/02/2024 10:30 (GMT+8),"Yao Zhigang
+(NUS)",Manifold fitting,Manifold Fitting with CycleGAN,Hybird,"THU, YMSC"
+07/02/2024 11:00 (GMT+8),"Bao Chenglong
+(THU)",CryoEM,Robust AI-aided Imaging Models with Unpaired Data,Hybird,"DSDS, NUS, S16 07-107"
+31/01/2024 11:00 (GMT+8),"Liu Hao
+(HKBU)","Learning theory
+Low-dim structure",Deep Learning Theories for Problems with Low–Dimensional Structures,Hybird,"DSDS, NUS, S16 07-107"
+25/01/2024 11:00 (GMT+8),"Tang Rong
+(HKUST)","Minimax adversarial loss
+Submanifold",Minimax Rate of Distribution Estimation on Unknown Submanifold under Adversarial Losses.,Offline,"NUS, SRC 01-03E, UTown"
