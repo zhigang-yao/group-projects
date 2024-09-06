@@ -11,10 +11,16 @@ An implementation in Matlab is available on Github: :material-arrow-right: <a hr
 Detailed description and discussion can be found in paper: :material-arrow-right: <a href="" class="btn-href">:material-newspaper-variant-outline:</a>  
 To cite: :material-arrow-down:
 ```
-@article{yao2024scamf,
-  title={Single-Cell Analysis via Manifold Fitting},
-  author={Yao, Zhigang and Li, Bingjie and Lu, Yukun and Yau, Shing-Tung},
-  journal = {Scientific Report},
-  year={2024}
+@article{doi:10.1073/pnas.2400002121,
+author = {Zhigang Yao  and Bingjie Li  and Yukun Lu  and Shing-Tung Yau },
+title = {Single-cell analysis via manifold fitting: A framework for RNA clustering and beyond},
+journal = {Proceedings of the National Academy of Sciences},
+volume = {121},
+number = {37},
+pages = {e2400002121},
+year = {2024},
+doi = {10.1073/pnas.2400002121},
+URL = {https://www.pnas.org/doi/abs/10.1073/pnas.2400002121},
+eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.2400002121}
 }
 ```
