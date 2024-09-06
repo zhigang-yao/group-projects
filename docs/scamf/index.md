@@ -8,7 +8,7 @@ Through extensive comparative studies and experimental analysis, we demonstrate 
 </div>
 
 An implementation in Matlab is available on Github: :material-arrow-right: <a href="https://github.com/zhigang-yao/scAMF" class="btn-href">:simple-github:</a>  
-Detailed description and discussion can be found in paper: :material-arrow-right: <a href="" class="btn-href">:material-newspaper-variant-outline:</a>  
+Detailed description and discussion can be found in paper: :material-arrow-right: <a href="https://www.pnas.org/doi/10.1073/pnas.2400002121" class="btn-href">:material-newspaper-variant-outline:</a>  
 To cite: :material-arrow-down:
 ```
 @article{doi:10.1073/pnas.2400002121,
