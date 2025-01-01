@@ -104,7 +104,8 @@ nav:
       - mfcgan/index.md
       - scamf/index.md
       - cellscope/index.md
-      - mf-meta/index.md
-      - mf-pancreas/index.md
+      - ukb-meta/index.md
+      - ukb-pancreas/index.md
+      - ukb-missing/index.md
   - Privatissimum:
       - pri/index.md
