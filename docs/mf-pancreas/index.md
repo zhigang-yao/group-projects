@@ -12,9 +12,9 @@ This study utilizes the UK Biobank database, which includes data from approximat
 This research highlights the potential to improve early diagnosis, enable personalized preventive strategies by targeting modifiable risk factors, and advance understanding of pancreatic cancer etiology, providing valuable data support for future studies and enabling researchers to gain deeper insights into the etiology of pancreatic cancer.
 </div>
 
-An implementation in R and MATLAB is available on Github: :material-arrow-right: <a href="https://github.com/zhigang-yao/MF-Metabolomic-Heterogeneity" class="btn-href">:simple-github:</a>  
+<!-- An implementation in R and MATLAB is available on Github: :material-arrow-right: <a href="https://github.com/zhigang-yao/MF-Metabolomic-Heterogeneity" class="btn-href">:simple-github:</a>  
 Detailed description and discussion can be found in paper: :material-arrow-right: <a href="" class="btn-href">:material-newspaper-variant-outline:</a>  
-<!-- To cite: :material-arrow-down:
+To cite: :material-arrow-down:
 ```
 @article{yao2023fixed,
   title={Random Fixed Boundary Flows},
