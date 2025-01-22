@@ -14,7 +14,10 @@ The website is based on [mkdocs-material](https://squidfunk.github.io/mkdocs-mat
 ### Add new projects:
 - Create a new folder: `docs/[Project_Name]`;
 - Create an index file `docs/[Project_Name]/index.md` and add the overview;
-- Revise `material/.overrides/main.html` accordingly to add it in the homepage;
-- Revise `material/.overrides/blog.html` accordingly to add it in the gallery;
-- Revise `mkdocs.yml` accordingly to add this project into the navigator;
+- ~~Revise `material/.overrides/main.html` accordingly to add it in the homepage;~~
+- ~~Revise `material/.overrides/blog.html` accordingly to add it in the gallery;~~
+- Revise `mkdocs.yml` accordingly to add this project into
+    - *nav:* the navigator
+    - *projects:* the gallery
+        - *selected*: *true*: the home page
 - Commit the changes to GitHub.
