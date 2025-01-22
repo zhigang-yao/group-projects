@@ -91,6 +91,7 @@ markdown_extensions:
 
 plugins:
   - macros
+  - search
 
 
 nav:
