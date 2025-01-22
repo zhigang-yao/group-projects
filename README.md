@@ -19,5 +19,13 @@ The website is based on [mkdocs-material](https://squidfunk.github.io/mkdocs-mat
 - Revise `mkdocs.yml` accordingly to add this project into
     - *nav:* the navigator
     - *projects:* the gallery
-        - *selected*: *true*: the home page
+    ```
+    - name: name of the project #card title
+      text: description of the project #text under the image
+      fig: fig.png #name of the image under docs/assets/images/
+      url: pf/ #name of the project folder docs/[Project_Name]
+      app: false #is this an application project?
+      filter: true #image hover effect?
+      selected: true #show on the home page?
+    ```
 - Commit the changes to GitHub.
