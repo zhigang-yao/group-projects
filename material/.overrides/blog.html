@@ -181,8 +181,30 @@ iframe { width: 90%;
     <h2>Theory and Methodology</h2>
       
     <ul class="cards">
+      {% for link in config.projects %}
+      {% if not link.app %}
+      {% if link.filter %}
+        <li class="card filter-image">
+        {% else %}
+        <li class="card">
+        {% endif %}
+          <div>
+            <h3 class="card-title">{{link.name}}</h3>
+            <div class="card-content">
+              <center>
+                <img src="../assets/images/{{link.fig}}" alt="{{ link.name }}" style="width: 100%;" draggable="false">
+              </center>
+              <p>{{link.text}}</p>
+            </div>
+          </div>
+          <div class="card-link-wrapper">
+            <a href="../{{link.url}}" class="card-link">Learn More</a>
+          </div>
+        </li>
+      {% endif %}
+    {% endfor %}
 
-      <li class="card filter-image">
+      <!-- <li class="card filter-image">
         <div>
           <h3 class="card-title">Principal Flows</h3>
           <div class="card-content">
@@ -223,7 +245,7 @@ iframe { width: 90%;
           </div>
         </div>
         <div class="card-link-wrapper">
-          <a href="../sub" class="card-link">Learn More</a>
+          <a href="../sub/" class="card-link">Learn More</a>
         </div>
       </li>
 
@@ -257,13 +279,13 @@ iframe { width: 90%;
         <div class="card-link-wrapper">
           <a href="../pb" class="card-link">Learn More</a>
         </div>
-      </li>
+      </li> -->
 
     </ul>
 
     <h2>Applications</h2>
     <ul class="cards">
-  
+<!--   
         <li class="card filter-image">
           <div>
             <h3 class="card-title">MFCGAN</h3>
@@ -354,11 +376,31 @@ iframe { width: 90%;
         <div class="card-link-wrapper">
           <a href="../ukb-missing" class="card-link">Learn More</a>
         </div>
-      </li>
-
+      </li> -->
+      {% for link in config.projects %}
+        {% if link.app %}
+        {% if link.filter %}
+          <li class="card filter-image">
+          {% else %}
+          <li class="card">
+          {% endif %}
+            <div>
+              <h3 class="card-title">{{link.name}}</h3>
+              <div class="card-content">
+                <center>
+                  <img src="../assets/images/{{link.fig}}" alt="{{ link.name }}" style="width: 100%;" draggable="false">
+                </center>
+                <p>{{link.text}}</p>
+              </div>
+            </div>
+            <div class="card-link-wrapper">
+              <a href="../{{link.url}}" class="card-link">Learn More</a>
+            </div>
+          </li>
+        {% endif %}
+      {% endfor %}
     </ul>
   </div>
-
 
 
 {% endblock %}

@@ -238,7 +238,29 @@ iframe { width: 90%;
     <h2><a href="research/">Selected Projects</a></h2>
       
     <ul class="cards">
-
+      {% for link in config.projects %}
+        {% if link.selected %}
+          {% if link.filter %}
+          <li class="card filter-image">
+          {% else %}
+          <li class="card">
+          {% endif %}
+            <div>
+              <h3 class="card-title">{{link.name}}</h3>
+              <div class="card-content">
+                <center>
+                  <img src="./assets/images/{{link.fig}}" alt="{{ link.name }}" style="width: 100%;" draggable="false">
+                </center>
+                <p>{{link.text}}</p>
+              </div>
+            </div>
+            <div class="card-link-wrapper">
+              <a href="./{{link.url}}" class="card-link">Learn More</a>
+            </div>
+          </li>
+        {% endif %}
+      {% endfor %}
+<!-- 
       <li class="card filter-image">
         <div>
           <h3 class="card-title">Principal Flows</h3>
@@ -404,7 +426,7 @@ iframe { width: 90%;
         <div class="card-link-wrapper">
           <a href="ukb-missing" class="card-link">Learn More</a>
         </div>
-      </li>
+      </li> -->
     </ul>
 <!-- 
     <h2>Privatissimum</h2>

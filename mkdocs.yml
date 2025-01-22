@@ -89,6 +89,9 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+plugins:
+  - macros
+
 
 nav:
   - Home: index.md
@@ -109,3 +112,83 @@ nav:
       - ukb-missing/index.md
   - Privatissimum:
       - pri/index.md
+
+
+projects:
+    - name: Principal Flows
+      text: Curves on the manifold serve as an analogous of principal components.
+      fig: pf.png
+      url: pf/
+      app: false
+      filter: true
+      selected: true
+    - name: Manifold Fitting
+      text: Fit smooth low-dim manifolds from high-dim noisy data points.
+      fig: mf.png
+      url: mf/
+      app: false
+      filter: true
+      selected: true
+    - name: Principal Submanifolds
+      text: Multi-dimensional generalization of principal flows.
+      fig: submanifold.png
+      url: sub/
+      app: false
+      filter: false
+      selected: true
+    - name: Fixed Boundary Flows
+      text: Conditional extension of principal flows with fixed boundary points.
+      fig: fbf.png
+      url: fbf/
+      app: false
+      filter: false
+      selected: true
+    - name: Principal Boundary
+      text: Principal decision boundary on Riemannian manifolds.
+      fig: pb2_small.png
+      url: pb/
+      app: false
+      filter: true
+      selected: true
+    - name: MFCGAN
+      text: Combination of manifold fitting with CycleGAN.
+      fig: mfcgan.png
+      url: mfcgan/
+      app: true
+      filter: true
+      selected: true
+    - name: scAMF
+      text: Single-Cell Analysis via Manifold Fitting.
+      fig: scamf.png
+      url: scamf/
+      app: true
+      filter: true
+      selected: true
+    - name: CellScope
+      text: Cellular analyzing tool via Manifold Fitting.
+      fig: CellScape.png
+      url: CellScope/
+      app: true
+      filter: true
+      selected: true
+    - name: Metabolic Biomarkers
+      text: Using manifold fitting to analysis metabolomic heterogeneity and disease risks in UK Biobank.
+      fig: ukb-meta.png
+      url: ukb-meta/
+      app: true
+      filter: false
+      selected: true
+    - name: Pancreatic Cancer
+      text: Using manifold fitting to analyze pancreatic cancer risk with UK Biobank.
+      fig: ukb-pancreas.png
+      url: ukb-pancreas/
+      app: true
+      filter: false
+      selected: true
+    - name: Missing Data
+      text: Analyze the effect of missing data in UK Biobank.
+      fig: ukb-missing.png
+      url: ukb-missing/
+      app: true
+      filter: false
+      selected: true
