@@ -168,7 +168,7 @@ projects:
     - name: CellScope
       text: Cellular analyzing tool via Manifold Fitting.
       fig: CellScape.png
-      url: CellScope/
+      url: cellscope/
       app: true
       filter: true
       selected: true
