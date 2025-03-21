@@ -4,7 +4,7 @@ site_description: >-
   We engage in the interaction between statistics and geometry
 
 home_name: Yao Group Page
-copyright: Copyright &copy; 2024 Yao Group Members. ALL RIGHTS RESERVED.
+copyright: Copyright &copy; 2025 Yao Group Members. ALL RIGHTS RESERVED.
 
 theme:
   name: material
@@ -65,7 +65,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.emoji:
       emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -111,6 +111,7 @@ nav:
       - ukb-meta/index.md
       - ukb-pancreas/index.md
       - ukb-missing/index.md
+      - mf-rna/index.md
   - Privatissimum:
       - pri/index.md
 
@@ -190,6 +191,13 @@ projects:
       text: Analyze the effect of missing data in UK Biobank.
       fig: ukb-missing.png
       url: ukb-missing/
+      app: true
+      filter: false
+      selected: true
+    - name: MF Based RNA Clash Correction
+      text: RNA clustering and clash correction via Principal Submanifold.
+      fig: mf-rna.png
+      url: mf-rna/
       app: true
       filter: false
       selected: true
