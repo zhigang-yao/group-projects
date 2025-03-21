@@ -1,5 +1,5 @@
 ---
-title: Fitting -- Metabolic Biomarkers
+title: UKB-Metabolic Biomarkers
 ---
 
 # Analysis UK Biobank NMR Metabolic Biomarkers with Manifold Fitting

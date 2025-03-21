@@ -194,7 +194,7 @@ projects:
       app: true
       filter: false
       selected: true
-    - name: MF Based RNA Clash Correction
+    - name: RNA Clash Correction
       text: RNA clustering and clash correction via Principal Submanifold.
       fig: mf-rna.png
       url: mf-rna/
