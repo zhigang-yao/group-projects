@@ -112,6 +112,8 @@ nav:
       - ukb-pancreas/index.md
       - ukb-missing/index.md
       - mf-rna/index.md
+  - Computational Resources:
+      - resources/index.md
   - Privatissimum:
       - pri/index.md
 
