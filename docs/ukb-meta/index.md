@@ -11,13 +11,20 @@ This study aims to develop a comprehensive method to elucidate population-level 
 </div>
 
 An implementation in R and MATLAB is available on Github: :material-arrow-right: <a href="https://github.com/zhigang-yao/MF-Metabolomic-Heterogeneity" class="btn-href">:simple-github:</a>  
-Detailed description and discussion can be found in paper: :material-arrow-right: <a href="" class="btn-href">:material-newspaper-variant-outline:</a>  
-<!-- To cite: :material-arrow-down:
+Detailed description and discussion can be found in paper: :material-arrow-right: <a href="https://www.pnas.org/doi/10.1073/pnas.2500001122" class="btn-href">:material-newspaper-variant-outline:</a>  
+To cite: :material-arrow-down:
 ```
-@article{yao2023fixed,
-  title={Random Fixed Boundary Flows},
-  author={Yao, Zhigang and Xia, Yuqing and Fan, Zengyan},
-  journal={arXiv preprint arXiv:1904.11332},
-  year={2023}
+@article{
+doi:10.1073/pnas.2500001122,
+author = {Bingjie Li  and Jiaji Su  and Runyu Lin  and Shing-Tung Yau  and Zhigang Yao },
+title = {Manifold fitting reveals metabolomic heterogeneity and disease associations in UK Biobank populations},
+journal = {Proceedings of the National Academy of Sciences},
+volume = {122},
+number = {22},
+pages = {e2500001122},
+year = {2025},
+doi = {10.1073/pnas.2500001122},
+URL = {https://www.pnas.org/doi/abs/10.1073/pnas.2500001122},
+eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.2500001122}
 }
-``` -->
+```
