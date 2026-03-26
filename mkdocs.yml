@@ -104,6 +104,7 @@ nav:
       - sub/index.md
       - fbf/index.md
       - pb/index.md
+      - pnsm/index.md
     - Applications:
       - mfcgan/index.md
       - scamf/index.md
@@ -201,5 +202,12 @@ projects:
       fig: mf-rna.png
       url: mf-rna/
       app: true
+      filter: false
+      selected: true
+    - name: Principal Nested Submanifolds
+      text: A multi-scale decomposition of data via nested submanifolds.
+      fig: pnsm.png
+      url: pnsm/
+      app: false
       filter: false
       selected: true
