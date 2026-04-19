@@ -137,7 +137,7 @@ projects:
       selected: true
     - name: Curvature-driven Manifold Fitting
       text: Curvature-aware recovery of low-dimensional manifolds under isotropic noise.
-      fig: cdmf.svg
+      fig: cdmf.png
       url: cdmf/
       app: false
       filter: false
