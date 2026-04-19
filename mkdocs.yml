@@ -197,7 +197,7 @@ projects:
       selected: true
     - name: Multiple Myeloma
       text: Biomarker-guided preclinical risk stratification for myeloma in UK Biobank.
-      fig: ukb-mm.png
+      fig: ukb-mm.jpg
       url: ukb-mm/
       app: true
       filter: false
