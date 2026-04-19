@@ -103,6 +103,7 @@ nav:
       - mf/index.md
       - cdmf/index.md
       - riemannian/index.md
+      - dpmd/index.md
       - sub/index.md
       - fbf/index.md
       - pb/index.md
@@ -147,6 +148,13 @@ projects:
       text: Recover geometric quantities from noisy data via density derivatives.
       fig: riemannian.png
       url: riemannian/
+      app: false
+      filter: false
+      selected: true
+    - name: Differentially Private Manifold Denoising
+      text: Privacy-preserving manifold denoising for noisy query points.
+      fig: blank.png
+      url: dpmd/
       app: false
       filter: false
       selected: true
