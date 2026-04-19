@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Curvature-driven manifold fitting illustration</title>
+  <desc id="desc">A stylized curve with tangent and normal directions, showing local projection onto a smooth manifold.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#eef2ff"/>
+    </linearGradient>
+    <linearGradient id="curve" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="670" cy="90" r="90" fill="#dbeafe" opacity="0.55"/>
+  <circle cx="120" cy="380" r="140" fill="#cffafe" opacity="0.45"/>
+  <path d="M120 330 C 220 180, 320 140, 420 210 C 510 272, 600 258, 700 140" fill="none" stroke="url(#curve)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M210 300 L 360 245" stroke="#334155" stroke-width="4" stroke-dasharray="10 10"/>
+  <path d="M360 245 L 360 120" stroke="#334155" stroke-width="4" stroke-dasharray="10 10"/>
+  <path d="M360 245 L 500 190" stroke="#94a3b8" stroke-width="3" stroke-dasharray="6 10"/>
+  <circle cx="360" cy="245" r="10" fill="#0f172a"/>
+  <circle cx="210" cy="300" r="12" fill="#ef4444"/>
+  <circle cx="500" cy="190" r="10" fill="#f59e0b"/>
+  <circle cx="630" cy="165" r="8" fill="#8b5cf6"/>
+  <text x="92" y="70" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Curvature-driven Manifold Fitting</text>
+  <text x="84" y="405" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">projection</text>
+  <text x="360" y="112" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">normal</text>
+  <text x="484" y="182" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">noise</text>
+  <text x="175" y="330" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">point cloud</text>
+</svg>

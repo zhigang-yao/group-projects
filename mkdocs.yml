@@ -101,6 +101,7 @@ nav:
     - Theories:
       - pf/index.md
       - mf/index.md
+      - cdmf/index.md
       - sub/index.md
       - fbf/index.md
       - pb/index.md
@@ -133,6 +134,13 @@ projects:
       url: mf/
       app: false
       filter: true
+      selected: true
+    - name: Curvature-driven Manifold Fitting
+      text: Curvature-aware recovery of low-dimensional manifolds under isotropic noise.
+      fig: cdmf.svg
+      url: cdmf/
+      app: false
+      filter: false
       selected: true
     - name: Principal Submanifolds
       text: Multi-dimensional generalization of principal flows.
