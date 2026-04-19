@@ -101,13 +101,13 @@ nav:
     - Theories:
       - pf/index.md
       - mf/index.md
-      - cdmf/index.md
-      - riemannian/index.md
-      - dpmd/index.md
       - sub/index.md
       - fbf/index.md
       - pb/index.md
       - pnsm/index.md
+      - cdmf/index.md
+      - riemannian/index.md
+      - dpmd/index.md
     - Applications:
       - mfcgan/index.md
       - scamf/index.md
@@ -136,27 +136,6 @@ projects:
       url: mf/
       app: false
       filter: true
-      selected: true
-    - name: Curvature-driven Manifold Fitting
-      text: Curvature-aware recovery of low-dimensional manifolds under isotropic noise.
-      fig: cdmf.png
-      url: cdmf/
-      app: false
-      filter: false
-      selected: true
-    - name: Estimating Riemannian Quantities
-      text: Recover geometric quantities from noisy data via density derivatives.
-      fig: riemannian.png
-      url: riemannian/
-      app: false
-      filter: false
-      selected: true
-    - name: Differentially Private Manifold Denoising
-      text: Privacy-preserving manifold denoising for noisy query points.
-      fig: dpmd.svg
-      url: dpmd/
-      app: false
-      filter: false
       selected: true
     - name: Principal Submanifolds
       text: Multi-dimensional generalization of principal flows.
@@ -232,6 +211,27 @@ projects:
       text: A multi-scale decomposition of data via nested submanifolds.
       fig: pnsm.png
       url: pnsm/
+      app: false
+      filter: false
+      selected: true
+    - name: Curvature-driven Manifold Fitting
+      text: Curvature-aware recovery of low-dimensional manifolds under isotropic noise.
+      fig: cdmf.png
+      url: cdmf/
+      app: false
+      filter: false
+      selected: true
+    - name: Estimating Riemannian Quantities
+      text: Recover geometric quantities from noisy data via density derivatives.
+      fig: riemannian.png
+      url: riemannian/
+      app: false
+      filter: false
+      selected: true
+    - name: Differentially Private Manifold Denoising
+      text: Privacy-preserving manifold denoising for noisy query points.
+      fig: dpmd.png
+      url: dpmd/
       app: false
       filter: false
       selected: true
