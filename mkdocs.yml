@@ -102,6 +102,7 @@ nav:
       - pf/index.md
       - mf/index.md
       - cdmf/index.md
+      - riemannian/index.md
       - sub/index.md
       - fbf/index.md
       - pb/index.md
@@ -139,6 +140,13 @@ projects:
       text: Curvature-aware recovery of low-dimensional manifolds under isotropic noise.
       fig: cdmf.png
       url: cdmf/
+      app: false
+      filter: false
+      selected: true
+    - name: Estimating Riemannian Quantities
+      text: Recover geometric quantities from noisy data via density derivatives.
+      fig: riemannian.png
+      url: riemannian/
       app: false
       filter: false
       selected: true
