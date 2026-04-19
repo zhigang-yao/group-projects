@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Differentially Private Manifold Denoising illustration</title>
+  <desc id="desc">A noisy query point above a manifold with a tangent plane, projected direction, and DP geometry box.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="plane" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0f4ff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#e6eefc" stop-opacity="0.75"/>
+    </linearGradient>
+    <style>
+      .blue { fill: #2451d6; stroke: #2451d6; }
+      .green { fill: #5da75a; stroke: #5da75a; }
+      .red { fill: #ef4444; stroke: #ef4444; }
+      .black { fill: #111827; stroke: #111827; }
+      .labelBlue { fill: #2451d6; font-family: Georgia, 'Times New Roman', serif; font-style: italic; }
+      .labelGreen { fill: #5da75a; font-family: Georgia, 'Times New Roman', serif; font-style: italic; }
+      .labelRed { fill: #ef4444; font-family: Georgia, 'Times New Roman', serif; font-style: italic; }
+      .labelBlack { fill: #111827; font-family: Georgia, 'Times New Roman', serif; font-style: italic; }
+      .labelSerif { fill: #111827; font-family: Georgia, 'Times New Roman', serif; }
+    </style>
+  </defs>
+
+  <rect width="1400" height="900" fill="url(#bg)"/>
+
+  <path d="M170 805 C 340 560, 520 500, 700 545 C 900 595, 1065 545, 1235 790"
+        fill="none" stroke="#5f9b5a" stroke-width="5"/>
+  <path d="M135 865 C 315 650, 530 620, 710 705 C 880 785, 1080 740, 1290 855"
+        fill="none" stroke="#5f9b5a" stroke-width="4" opacity="0.95"/>
+
+  <path d="M360 640 L 980 670 L 1260 430 L 620 405 Z" fill="url(#plane)" stroke="#4d73f0" stroke-width="4"/>
+  <path d="M360 640 L 980 670" stroke="#4d73f0" stroke-width="4"/>
+  <path d="M980 670 L 1260 430" stroke="#4d73f0" stroke-width="4"/>
+  <path d="M620 405 L 1260 430" stroke="#4d73f0" stroke-width="4"/>
+  <path d="M620 405 L 360 640" stroke="#4d73f0" stroke-width="4"/>
+
+  <path d="M620 410 C 725 410, 825 455, 900 510" fill="none" stroke="#90a0b6" stroke-width="4"/>
+  <path d="M900 510 C 940 540, 960 600, 955 660" fill="none" stroke="#90a0b6" stroke-width="4" stroke-dasharray="18 14"/>
+
+  <path d="M715 690 L 820 650" stroke="#5d84f0" stroke-width="5" fill="none"/>
+  <polygon points="820,650 796,646 804,666" fill="#5d84f0"/>
+  <path d="M715 690 L 595 690" stroke="#5d84f0" stroke-width="5"/>
+  <polygon points="595,690 620,676 620,704" fill="#5d84f0"/>
+  <path d="M715 690 L 875 630" stroke="#5d84f0" stroke-width="5"/>
+  <polygon points="875,630 851,626 859,646" fill="#5d84f0"/>
+
+  <circle cx="715" cy="690" r="18" class="black"/>
+  <text x="702" y="740" class="labelSerif" font-size="42">μ</text>
+
+  <circle cx="1040" cy="630" r="18" fill="#68b168" stroke="#68b168"/>
+  <text x="1048" y="648" class="labelGreen" font-size="36">z</text>
+  <text x="1063" y="676" class="labelGreen" font-size="42">z</text>
+  <text x="1090" y="694" class="labelGreen" font-size="42">+</text>
+
+  <circle cx="850" cy="215" r="26" fill="#2451d6" stroke="#2451d6"/>
+  <text x="881" y="225" class="labelBlue" font-size="40">z</text>
+  <text x="902" y="90" class="labelBlue" font-size="48">noisy query z</text>
+
+  <path d="M850 215 L 740 680" stroke="#111827" stroke-width="4" stroke-dasharray="16 12" fill="none"/>
+  <polygon points="740,680 733,653 754,658" fill="#111827"/>
+
+  <path d="M850 215 L 1002 626" stroke="#e53935" stroke-width="4" stroke-dasharray="18 14" fill="none"/>
+  <polygon points="1002,626 985,605 975,623" fill="#e53935"/>
+  <path d="M850 215 L 1088 624" stroke="#54a24b" stroke-width="4" stroke-dasharray="18 14" fill="none"/>
+  <polygon points="1088,624 1070,604 1061,621" fill="#54a24b"/>
+
+  <path d="M850 215 L 850 155" stroke="#2451d6" stroke-width="5" fill="none"/>
+  <polygon points="850,155 838,178 862,178" fill="#2451d6"/>
+  <text x="635" y="460" class="labelBlue" font-size="60">T</text>
+  <text x="688" y="460" class="labelBlue" font-size="44">μ</text>
+  <text x="725" y="460" class="labelBlue" font-size="54">M</text>
+
+  <text x="885" y="260" class="labelRed" font-size="56">f(z) = (I - P)(z - μ)</text>
+  <text x="940" y="320" class="labelRed" font-size="46">(normal direction)</text>
+
+  <path d="M105 395 C 165 390, 235 390, 300 398" fill="none" stroke="#b8b8b8" stroke-width="3"/>
+  <rect x="25" y="360" rx="24" ry="24" width="420" height="270" fill="#ffffff" stroke="#707070" stroke-width="4"/>
+  <text x="55" y="425" class="labelSerif" font-size="38">DP geometry at μ</text>
+  <circle cx="64" cy="497" r="8" fill="#111827"/>
+  <text x="92" y="507" class="labelSerif" font-size="34">local mean μ̃</text>
+  <circle cx="64" cy="560" r="8" fill="#111827"/>
+  <text x="92" y="570" class="labelSerif" font-size="34">tangent projector P̃</text>
+  <text x="52" y="625" class="labelSerif" font-size="34">(with Gaussian noise)</text>
+  <path d="M450 460 L 515 520" stroke="#111827" stroke-width="3" stroke-dasharray="10 10" fill="none"/>
+  <polygon points="515,520 493,513 504,531" fill="#111827"/>
+  <path d="M440 520 C 490 580, 560 630, 640 680" fill="none" stroke="#111827" stroke-width="4"/>
+  <polygon points="640,680 615,675 626,655" fill="#111827"/>
+  <text x="420" y="820" class="labelSerif" font-size="34">local mean (computed with DP)</text>
+
+  <text x="1030" y="820" class="labelGreen" font-size="54">M ⊂ R</text>
+  <text x="1116" y="803" class="labelGreen" font-size="32">D</text>
+
+  <path d="M645 690 C 675 720, 725 740, 770 740" fill="none" stroke="#111827" stroke-width="4" stroke-dasharray="14 10"/>
+  <path d="M715 690 C 710 760, 695 795, 650 835" fill="none" stroke="#111827" stroke-width="3"/>
+  <text x="870" y="715" class="labelBlue" font-size="34">T</text>
+  <text x="890" y="715" class="labelBlue" font-size="26">μ</text>
+  <text x="910" y="715" class="labelBlue" font-size="34">M</text>
+
+  <path d="M880 630 L 935 646" stroke="#2451d6" stroke-width="5" fill="none"/>
+  <polygon points="935,646 914,649 922,629" fill="#2451d6"/>
+  <text x="110" y="640" class="labelSerif" font-size="36">DP</text>
+  <text x="150" y="640" class="labelSerif" font-size="30">geometry</text>
+</svg>
