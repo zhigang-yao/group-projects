@@ -114,6 +114,8 @@ nav:
       - cellscope/index.md
       - ukb-meta/index.md
       - ukb-pancreas/index.md
+      - ukb-mm/index.md
+      - ukb-dementia/index.md
       - ukb-missing/index.md
       - mf-rna/index.md
   - Computational Resources:
@@ -190,6 +192,20 @@ projects:
       text: Using manifold fitting to analyze pancreatic cancer risk with UK Biobank.
       fig: ukb-pancreas.png
       url: ukb-pancreas/
+      app: true
+      filter: false
+      selected: true
+    - name: Multiple Myeloma
+      text: Biomarker-guided preclinical risk stratification for myeloma in UK Biobank.
+      fig: ukb-mm.png
+      url: ukb-mm/
+      app: true
+      filter: false
+      selected: true
+    - name: Dementia
+      text: Multidimensional physical fitness and dementia risk in UK Biobank.
+      fig: ukb-dementia.jpg
+      url: ukb-dementia/
       app: true
       filter: false
       selected: true
