@@ -195,20 +195,6 @@ projects:
       app: true
       filter: false
       selected: true
-    - name: Multiple Myeloma
-      text: Biomarker-guided preclinical risk stratification for myeloma in UK Biobank.
-      fig: ukb-mm.jpg
-      url: ukb-mm/
-      app: true
-      filter: false
-      selected: true
-    - name: Dementia
-      text: Multidimensional physical fitness and dementia risk in UK Biobank.
-      fig: ukb-dementia.jpg
-      url: ukb-dementia/
-      app: true
-      filter: false
-      selected: true
     - name: Missing Data
       text: Analyze the effect of missing data in UK Biobank.
       fig: ukb-missing.png
@@ -230,6 +216,13 @@ projects:
       app: false
       filter: false
       selected: true
+    - name: Differentially Private Manifold Denoising
+      text: Privacy-preserving manifold denoising for noisy query points.
+      fig: dpmd.png
+      url: dpmd/
+      app: false
+      filter: false
+      selected: true
     - name: Curvature-driven Manifold Fitting
       text: Curvature-aware recovery of low-dimensional manifolds under isotropic noise.
       fig: cdmf.png
@@ -244,10 +237,17 @@ projects:
       app: false
       filter: false
       selected: true
-    - name: Differentially Private Manifold Denoising
-      text: Privacy-preserving manifold denoising for noisy query points.
-      fig: dpmd.png
-      url: dpmd/
-      app: false
+    - name: Multiple Myeloma
+      text: Biomarker-guided preclinical risk stratification for myeloma in UK Biobank.
+      fig: ukb-mm.jpg
+      url: ukb-mm/
+      app: true
+      filter: false
+      selected: true
+    - name: Dementia
+      text: Multidimensional physical fitness and dementia risk in UK Biobank.
+      fig: ukb-dementia.jpg
+      url: ukb-dementia/
+      app: true
       filter: false
       selected: true
