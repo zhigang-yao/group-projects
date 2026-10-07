@@ -237,13 +237,6 @@ projects:
       app: false
       filter: false
       selected: true
-    - name: Successive Tangent-Space Projection
-      text: Manifold fitting from noisy data through successive local tangent-space projections.
-      fig: STSP.png
-      url: stsp/
-      app: false
-      filter: false
-      selected: true
     - name: Multiple Myeloma
       text: Biomarker-guided preclinical risk stratification for myeloma in UK Biobank.
       fig: ukb-mm.jpg
@@ -256,5 +249,12 @@ projects:
       fig: ukb-dementia.jpg
       url: ukb-dementia/
       app: true
+      filter: false
+      selected: true
+    - name: Successive Tangent-Space Projection
+      text: Manifold fitting from noisy data through successive local tangent-space projections.
+      fig: STSP.png
+      url: stsp/
+      app: false
       filter: false
       selected: true

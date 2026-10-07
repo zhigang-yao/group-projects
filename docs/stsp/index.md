@@ -22,7 +22,7 @@ To cite: :material-arrow-down:
 
 ```bibtex
 @techreport{xia_stsp,
-  title={Successive Tangent-Space Projection},
+  title={Manifold Fitting by Successive Tangent-Space Projection},
   author={Xia, Yuqing and Li, Bingjie and Yao, Zhigang},
   type={Technical report}
 }
