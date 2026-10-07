@@ -107,6 +107,7 @@ nav:
       - cdmf/index.md
       - riemannian/index.md
       - dpmd/index.md
+      - stsp/index.md
     - Applications:
       - mfcgan/index.md
       - scamf/index.md
@@ -215,13 +216,6 @@ projects:
       app: false
       filter: false
       selected: true
-    - name: Differentially Private Manifold Denoising
-      text: Privacy-preserving manifold denoising for noisy query points.
-      fig: dpmd.png
-      url: dpmd/
-      app: false
-      filter: false
-      selected: true
     - name: Curvature-driven Manifold Fitting
       text: Curvature-aware recovery of low-dimensional manifolds under isotropic noise.
       fig: cdmf.png
@@ -233,6 +227,20 @@ projects:
       text: Recover geometric quantities from noisy data via density derivatives.
       fig: riemannian.png
       url: riemannian/
+      app: false
+      filter: false
+      selected: true
+    - name: Differentially Private Manifold Denoising
+      text: Privacy-preserving manifold denoising for noisy query points.
+      fig: dpmd.png
+      url: dpmd/
+      app: false
+      filter: false
+      selected: true
+    - name: Successive Tangent-Space Projection
+      text: Manifold fitting from noisy data through successive local tangent-space projections.
+      fig: STSP.png
+      url: stsp/
       app: false
       filter: false
       selected: true
